@@ -102,12 +102,45 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="127" height="141"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <subviews>
-                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="5li-Hb-jca">
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="5li-Hb-jca">
                                                                         <rect key="frame" x="0.0" y="0.0" width="127" height="141"/>
-                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     </imageView>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MAG-ho-Idi" customClass="GradientView" customModule="AllInOne" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="101" width="127" height="40"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="40" id="Fah-99-7GI"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                                                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.47428831335616439" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                                                                <color key="value" red="0.4280615482233503" green="0.4280615482233503" blue="0.4280615482233503" alpha="0.85605736301369861" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </view>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chicken Fried Rice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hce-Ia-lHx">
+                                                                        <rect key="frame" x="3" y="114" width="127" height="17"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
                                                                 </subviews>
                                                             </view>
+                                                            <constraints>
+                                                                <constraint firstItem="MAG-ho-Idi" firstAttribute="leading" secondItem="5li-Hb-jca" secondAttribute="leading" id="0Z6-9n-ASZ"/>
+                                                                <constraint firstItem="hce-Ia-lHx" firstAttribute="width" secondItem="MAG-ho-Idi" secondAttribute="width" id="4lY-0S-UHk"/>
+                                                                <constraint firstAttribute="bottom" secondItem="hce-Ia-lHx" secondAttribute="bottom" constant="10" id="766-zM-NVi"/>
+                                                                <constraint firstItem="5li-Hb-jca" firstAttribute="top" secondItem="fvr-zg-R6n" secondAttribute="top" id="7e6-eK-s8z"/>
+                                                                <constraint firstItem="hce-Ia-lHx" firstAttribute="leading" secondItem="fvr-zg-R6n" secondAttribute="leading" constant="3" id="KlQ-6w-xEY"/>
+                                                                <constraint firstAttribute="trailing" secondItem="5li-Hb-jca" secondAttribute="trailing" id="RMC-Ib-Xdu"/>
+                                                                <constraint firstAttribute="bottom" secondItem="5li-Hb-jca" secondAttribute="bottom" id="UDw-jc-kEy"/>
+                                                                <constraint firstItem="5li-Hb-jca" firstAttribute="leading" secondItem="fvr-zg-R6n" secondAttribute="leading" id="X5k-lF-Gou"/>
+                                                                <constraint firstAttribute="trailing" secondItem="hce-Ia-lHx" secondAttribute="trailing" constant="-3" id="bwE-V6-GV2"/>
+                                                                <constraint firstAttribute="bottom" secondItem="MAG-ho-Idi" secondAttribute="bottom" id="jGf-nA-Si7"/>
+                                                                <constraint firstItem="MAG-ho-Idi" firstAttribute="width" secondItem="5li-Hb-jca" secondAttribute="width" id="nLm-A3-5za"/>
+                                                                <constraint firstItem="MAG-ho-Idi" firstAttribute="bottom" secondItem="5li-Hb-jca" secondAttribute="bottom" id="ovh-8M-M3z"/>
+                                                            </constraints>
                                                         </collectionViewCell>
                                                     </cells>
                                                 </collectionView>

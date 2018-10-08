@@ -17,7 +17,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "service_cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "service_cell", for: indexPath) as! ServiceTableViewCell
+        let item = serviceData[indexPath.row]
+        cell.lblGroupTitle.text = item.name
+        cell.lblNumOfDetail.text = String(item.services.count) + " for today"
         
         return cell
     }

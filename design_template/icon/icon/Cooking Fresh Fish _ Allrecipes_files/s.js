@@ -1,0 +1,1 @@
+!function(a){var b="_viantTMC";b in window&&window[b].exec?window[b].exec(a):console.log("Failed execute vtm callback")}({t:"kzZD_-SqPtNCWC",app:"vtm",v:"1.2", ss:"0", sn:"viant-tokenserver-jsonp-prod-group-us-central1-v2-blmz"});
