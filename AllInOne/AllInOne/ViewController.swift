@@ -20,7 +20,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = tableView.dequeueReusableCell(withIdentifier: "service_cell", for: indexPath) as! ServiceTableViewCell
         let item = serviceData[indexPath.row]
         cell.lblGroupTitle.text = item.name
-        cell.lblNumOfDetail.text = String(item.services.count) + " for today"
+        cell.lblNumOfDetail.text = item.getIntroducing()
+        cell.imgGroupIco.image = UIImage(named: item.image)
         
         return cell
     }

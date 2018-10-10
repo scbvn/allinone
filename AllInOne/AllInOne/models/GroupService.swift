@@ -12,4 +12,9 @@ struct GroupService {
     var name = String()
     var image = String()
     var services = Array<Service>()
+    var introducing = String()
+    
+    func getIntroducing() -> String {
+        return String(services.count) + "" + introducing
+    }
 }
