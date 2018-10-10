@@ -19,9 +19,10 @@ struct DataService {
         var services = Array<Service>()
         for _ in 1...10 {
             var service = Service()
-            service.name = "Bun bo"
+            service.name = "Bun bo Hue huong vi sai gon"
             service.content = "Bun bo xua hue"
             service.price = 50000
+            service.image = "food"
             services.append(service)
         }
         group1.services = services

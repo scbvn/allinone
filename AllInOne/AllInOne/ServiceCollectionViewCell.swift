@@ -10,4 +10,11 @@ import UIKit
 
 class ServiceCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var imgThumb: UIImageView!
+    @IBOutlet weak var lblName: UILabel!
+    
+    public func configure(with service: Service) {
+        imgThumb.image = UIImage(named: service.image)
+        lblName.text = service.name
+    }
 }

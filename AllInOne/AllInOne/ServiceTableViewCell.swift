@@ -18,15 +18,21 @@ class ServiceTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollect
     @IBOutlet weak var lblGroupTitle: UILabel!
     @IBOutlet weak var imgGroupIco: UIImageView!
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 15
+        return services?.services.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "detail_cell", for: indexPath);
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "detail_cell", for: indexPath) as! ServiceCollectionViewCell;
         
         let serviceItem = services?.services[indexPath.row]
         
+        cell.configure(with: serviceItem!)
+        
         return cell;
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
     }
     
 
@@ -39,7 +45,7 @@ class ServiceTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollect
         imgGroupIco.layer.cornerRadius = imgGroupIco.frame.height / 2
         imgGroupIco.layer.masksToBounds = true
         imgGroupIco.layer.borderWidth = 2.0
-        imgGroupIco.layer.borderColor = UIColor.white.cgColor
+        imgGroupIco.layer.borderColor = UIColor.gray.cgColor
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

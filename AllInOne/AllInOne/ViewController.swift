@@ -22,6 +22,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.lblGroupTitle.text = item.name
         cell.lblNumOfDetail.text = item.getIntroducing()
         cell.imgGroupIco.image = UIImage(named: item.image)
+        cell.services = item
         
         return cell
     }
@@ -31,9 +32,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.navigationItem.title = "Services"
         tbvServices.dataSource = self
         tbvServices.delegate = self
         serviceData = DataService.getServiceData()
+        customNavigationBar()
+    }
+    
+    func customNavigationBar() {
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
     }
 
 

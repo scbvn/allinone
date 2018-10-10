@@ -17,6 +17,8 @@ final class GradientView: UIView {
         let gradient : CAGradientLayer = CAGradientLayer()
         gradient.frame = CGRect(x: CGFloat(0), y: CGFloat(0), width: superview!.frame.size.width, height: superview!.frame.size.height)
         gradient.colors = [startColor.cgColor, endColor.cgColor]
+        gradient.startPoint = CGPoint(x: 0.0, y: 1.0)
+        gradient.endPoint = CGPoint(x: 0.0, y: 0.0)
         layer.addSublayer(gradient)
     }
 
