@@ -14,6 +14,16 @@
 		54062FAE2168698D003B2A90 /* ImageInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54062FAD2168698D003B2A90 /* ImageInsets.swift */; };
 		544B94AF2169C78D000CBD07 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544B94AE2169C78D000CBD07 /* DataService.swift */; };
 		547176E9216DD2A60024FBAE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547176E8216DD2A60024FBAE /* DetailViewController.swift */; };
+		54B3410B216F2D3100E2B198 /* ReparingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B3410A216F2D3100E2B198 /* ReparingViewController.swift */; };
+		54B3410D216F35AD00E2B198 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B3410C216F35AD00E2B198 /* Font.swift */; };
+		54B3410F216FAD2400E2B198 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B3410E216FAD2400E2B198 /* WelcomeViewController.swift */; };
+		54B34111216FB64A00E2B198 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B34110216FB64A00E2B198 /* HelpViewController.swift */; };
+		54F1C041217254F500378A4C /* MyCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F1C040217254F500378A4C /* MyCartViewController.swift */; };
+		54F1C043217255E100378A4C /* MyOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F1C042217255E100378A4C /* MyOrderTableViewCell.swift */; };
+		54F1C0452172562900378A4C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F1C0442172562900378A4C /* Order.swift */; };
+		54F4D1462173957300A98A94 /* OrderHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4D1452173957300A98A94 /* OrderHistory.swift */; };
+		54F4D14821739ABE00A98A94 /* OrderHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4D14721739ABE00A98A94 /* OrderHistoryViewController.swift */; };
+		54F4D14C21739BF800A98A94 /* OrderHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4D14B21739BF800A98A94 /* OrderHistoryTableViewCell.swift */; };
 		AC323764216B092400D4B538 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC323763216B092400D4B538 /* GradientView.swift */; };
 		AC3C144E21638068004D6BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C144D21638068004D6BC9 /* AppDelegate.swift */; };
 		AC3C145021638068004D6BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C144F21638068004D6BC9 /* ViewController.swift */; };
@@ -53,6 +63,16 @@
 		54062FAD2168698D003B2A90 /* ImageInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInsets.swift; sourceTree = "<group>"; };
 		544B94AE2169C78D000CBD07 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		547176E8216DD2A60024FBAE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		54B3410A216F2D3100E2B198 /* ReparingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReparingViewController.swift; sourceTree = "<group>"; };
+		54B3410C216F35AD00E2B198 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		54B3410E216FAD2400E2B198 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		54B34110216FB64A00E2B198 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		54F1C040217254F500378A4C /* MyCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartViewController.swift; sourceTree = "<group>"; };
+		54F1C042217255E100378A4C /* MyOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderTableViewCell.swift; sourceTree = "<group>"; };
+		54F1C0442172562900378A4C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		54F4D1452173957300A98A94 /* OrderHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistory.swift; sourceTree = "<group>"; };
+		54F4D14721739ABE00A98A94 /* OrderHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryViewController.swift; sourceTree = "<group>"; };
+		54F4D14B21739BF800A98A94 /* OrderHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryTableViewCell.swift; sourceTree = "<group>"; };
 		6678C99C6495594B37590502 /* Pods_AllInOneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllInOneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C9B14D5B0E685EC3F9E2FB /* Pods_AllInOneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllInOneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D5A50F07532EFDA5B3120B /* Pods-AllInOneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllInOneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllInOneTests/Pods-AllInOneTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +143,8 @@
 			children = (
 				54062FA821685ED6003B2A90 /* Service.swift */,
 				54062FAA21686068003B2A90 /* GroupService.swift */,
+				54F1C0442172562900378A4C /* Order.swift */,
+				54F4D1452173957300A98A94 /* OrderHistory.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -131,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				54062FAD2168698D003B2A90 /* ImageInsets.swift */,
+				54B3410C216F35AD00E2B198 /* Font.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -139,6 +162,11 @@
 			isa = PBXGroup;
 			children = (
 				547176E8216DD2A60024FBAE /* DetailViewController.swift */,
+				54B3410A216F2D3100E2B198 /* ReparingViewController.swift */,
+				54B3410E216FAD2400E2B198 /* WelcomeViewController.swift */,
+				54B34110216FB64A00E2B198 /* HelpViewController.swift */,
+				54F1C040217254F500378A4C /* MyCartViewController.swift */,
+				54F4D14721739ABE00A98A94 /* OrderHistoryViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -146,7 +174,11 @@
 		AC323762216B090100D4B538 /* custom */ = {
 			isa = PBXGroup;
 			children = (
+				AC3C147B2165E777004D6BC9 /* ServiceTableViewCell.swift */,
+				54062FA521685E8A003B2A90 /* ServiceCollectionViewCell.swift */,
+				54F1C042217255E100378A4C /* MyOrderTableViewCell.swift */,
 				AC323763216B092400D4B538 /* GradientView.swift */,
+				54F4D14B21739BF800A98A94 /* OrderHistoryTableViewCell.swift */,
 			);
 			path = custom;
 			sourceTree = "<group>";
@@ -182,13 +214,11 @@
 				54062FA721685EA6003B2A90 /* models */,
 				AC3C144D21638068004D6BC9 /* AppDelegate.swift */,
 				AC3C144F21638068004D6BC9 /* ViewController.swift */,
+				544B94AE2169C78D000CBD07 /* DataService.swift */,
 				AC3C145121638068004D6BC9 /* Main.storyboard */,
 				AC3C14542163806B004D6BC9 /* Assets.xcassets */,
 				AC3C14562163806B004D6BC9 /* LaunchScreen.storyboard */,
 				AC3C14592163806B004D6BC9 /* Info.plist */,
-				AC3C147B2165E777004D6BC9 /* ServiceTableViewCell.swift */,
-				54062FA521685E8A003B2A90 /* ServiceCollectionViewCell.swift */,
-				544B94AE2169C78D000CBD07 /* DataService.swift */,
 			);
 			path = AllInOne;
 			sourceTree = "<group>";
@@ -232,6 +262,7 @@
 				AC3C144621638068004D6BC9 /* Sources */,
 				AC3C144721638068004D6BC9 /* Frameworks */,
 				AC3C144821638068004D6BC9 /* Resources */,
+				67A3C92A12A663FEC2C602C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,6 +382,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		67A3C92A12A663FEC2C602C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AllInOne/Pods-AllInOne-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AllInOne/Pods-AllInOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		99E9776F27DADCC3A2958D65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -430,10 +485,20 @@
 				AC3C147C2165E777004D6BC9 /* ServiceTableViewCell.swift in Sources */,
 				54062FA921685ED6003B2A90 /* Service.swift in Sources */,
 				54062FA621685E8A003B2A90 /* ServiceCollectionViewCell.swift in Sources */,
+				54F1C0452172562900378A4C /* Order.swift in Sources */,
+				54B3410F216FAD2400E2B198 /* WelcomeViewController.swift in Sources */,
+				54F1C041217254F500378A4C /* MyCartViewController.swift in Sources */,
+				54B34111216FB64A00E2B198 /* HelpViewController.swift in Sources */,
+				54B3410B216F2D3100E2B198 /* ReparingViewController.swift in Sources */,
+				54F1C043217255E100378A4C /* MyOrderTableViewCell.swift in Sources */,
 				AC3C144E21638068004D6BC9 /* AppDelegate.swift in Sources */,
+				54B3410D216F35AD00E2B198 /* Font.swift in Sources */,
 				547176E9216DD2A60024FBAE /* DetailViewController.swift in Sources */,
 				544B94AF2169C78D000CBD07 /* DataService.swift in Sources */,
 				AC323764216B092400D4B538 /* GradientView.swift in Sources */,
+				54F4D14821739ABE00A98A94 /* OrderHistoryViewController.swift in Sources */,
+				54F4D1462173957300A98A94 /* OrderHistory.swift in Sources */,
+				54F4D14C21739BF800A98A94 /* OrderHistoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

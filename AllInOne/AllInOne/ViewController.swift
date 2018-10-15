@@ -37,6 +37,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tbvServices.delegate = self
         serviceData = DataService.getServiceData()
         customNavigationBar()
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let controller = segue.destination as? DetailViewController, segue.identifier == "segue_detail", let cell = sender as? ServiceCollectionViewCell else {
+            return
+        }
+        
+        controller.service = cell.service
+        
     }
     
     func customNavigationBar() {

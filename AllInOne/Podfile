@@ -6,6 +6,8 @@ target 'AllInOne' do
   use_frameworks!
 
   # Pods for AllInOne
+  pod 'Toast-Swift', '~> 4.0.0'
+  pod 'DropDown', '~> 2.3.3'
 
   target 'AllInOneTests' do
     inherit! :search_paths

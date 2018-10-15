@@ -14,5 +14,5 @@ struct Service {
     var price = Float()
     var content = String()
     var image = String()
-
+    var subInfo = String()
 }

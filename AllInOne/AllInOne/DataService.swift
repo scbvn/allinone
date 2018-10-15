@@ -8,7 +8,13 @@
 
 import UIKit
 
+var dataService = DataService()
+
 struct DataService {
+    
+    var basketList = Array<Order>()
+    var orderHistoryList = Array<OrderHistory>()
+    
     static func getServiceData() -> Array<GroupService> {
         var servicesGroups = Array<GroupService>()
         
@@ -19,10 +25,11 @@ struct DataService {
         var services = Array<Service>()
         for _ in 1...10 {
             var service = Service()
-            service.name = "Bun bo Hue huong vi sai gon"
-            service.content = "Bun bo xua hue"
-            service.price = 50000
+            service.name = "Bun bo Hue"
+            service.content = "“Bún Bò Huế” is very unusual by combining beef and pork in one dish harmoniously. It tastes sweet of bones borth, salty of Hue shrimp paste, sour of pineapples and spicy of chilies at once."
+            service.price = 10
             service.image = "food"
+            service.subInfo = "250 calories"
             services.append(service)
         }
         group1.services = services
@@ -64,5 +71,27 @@ struct DataService {
         servicesGroups.append(group6)
         
         return servicesGroups
+    }
+    
+    func getCart() -> Array<Order> {
+        return basketList
+    }
+    
+    mutating func addToCart(service: Service, number: Int) {
+        let order = Order(service: service, number: number)
+        self.basketList.append(order)
+    }
+    
+    mutating func clearCart() {
+        self.basketList.removeAll()
+    }
+    
+    mutating func addOrderHistory(order: Order) {
+        let orderHistory = OrderHistory(order: order, date: Date())
+        self.orderHistoryList.append(orderHistory)
+    }
+    
+    func getHistory() -> Array<OrderHistory> {
+        return orderHistoryList
     }
 }

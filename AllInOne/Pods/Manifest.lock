@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: 36e716851e2548c4ee26d01b93b73371e79d941b
+PODS:
+  - DropDown (2.3.9)
+  - Toast-Swift (4.0.0)
+
+DEPENDENCIES:
+  - DropDown (~> 2.3.3)
+  - Toast-Swift (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DropDown
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  DropDown: d187d4abdfa708a2990aff0f4fcfab77c6b161df
+  Toast-Swift: 594b5c5e5129f15438e410207e43287f027b3c00
+
+PODFILE CHECKSUM: 41bb3df78697b54088d215b6e533d44e3222e0a0
 
 COCOAPODS: 1.5.3

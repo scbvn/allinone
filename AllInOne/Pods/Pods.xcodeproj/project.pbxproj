@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DBB73AA0571403BF12B9F102843B690 /* Pods-AllInOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8813744BE7B26A534D91EA4289D5424B /* Pods-AllInOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E77370F2711705DDBD72B33725EC11E /* Pods-AllInOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 324C8A8FD18764153B866DDB50F8B0F7 /* Pods-AllInOne-dummy.m */; };
+		240A0F0EFC70E12766B3BDF2370CB6E7 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E8699FB92A2E36AAB0724B9C1754F1 /* DPDUIView+Extension.swift */; };
+		36AE315853D6F6C80CD981C60DC6AEFC /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D36CB3F142B1A06C3F59C8D3BF616A6 /* Toast-Swift-dummy.m */; };
+		49D9535D4C5F930D4030341ED2F96A35 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF33D3D375AEB4314903C8EDB8D55F /* DPDKeyboardListener.swift */; };
 		4B4C1EC286FB5FEF6D6D53D54ACF6141 /* Pods-AllInOneTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8C361681E7938D0EFEE77657FB76CE /* Pods-AllInOneTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		565A047C7F5CEBD126F60E0EAE200380 /* Pods-AllInOneUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2AE178D8AD9DF9451A8CB86698DE3 /* Pods-AllInOneUITests-dummy.m */; };
+		573FA8A312D833DA2F1FF734419EE989 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 775B0F882A9D0C921445F3A1F1B52994 /* DropDown-dummy.m */; };
+		5917A09A6E5D2ECC01CE06228B4FB15E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		5C7C25F95681B9D5EBDB138D950EDDE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		5DA5091B42B3A68CCC1C9925D0F2B587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
 		622ADF071627C82E6C49B9D54D1011B3 /* Pods-AllInOneUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0971AEAB6D8D9FF501DA05E9FBD9BB /* Pods-AllInOneUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		703FE57F6198F5F8AF342012E78DDB05 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18FE8685A0502105191B5E3181DEA53 /* Toast.swift */; };
+		89A682C4E3E4B1B55085832D4CFB4ADA /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9C816A952650A31CABBAAD785BEE1 /* DropDownCell.swift */; };
+		8EF278C1AFE4C32B1F9E80BE7726C804 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF13BCB9D36F1319E01CAB18FE2FBA7 /* QuartzCore.framework */; };
+		9117999586431C5C3DA383CEE081F6F1 /* Pods-AllInOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 324C8A8FD18764153B866DDB50F8B0F7 /* Pods-AllInOne-dummy.m */; };
+		94A7DFD684BC8AE0EEF13BA17610C7C6 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA98AFFE5E61FFE943440F235ED2EAC /* DropDown.swift */; };
 		97CDBDE4548E90530B3EAD0057A0429E /* Pods-AllInOneTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 874F5336C258307B34AE1290D5904EC3 /* Pods-AllInOneTests-dummy.m */; };
-		A75D24A6657D1A233A03E725FA933230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		A90B9E72AAE1D8F1D51A02C1D1C1FDC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B5A6A96BED89E14303CEFE5F406E3D4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A75D24A6657D1A233A03E725FA933230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		A90B9E72AAE1D8F1D51A02C1D1C1FDC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		B59E75CB029C100A622924064730EE7A /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4509C75CDEE103661AAEA2AABC010CBF /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3851EB5463F8F3669AC09D6B1376A88 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC54DBD1437BDC8A33A69190146432D /* DropDown+Appearance.swift */; };
+		D78BEC212C7FEAB258C62037FDC2CE0A /* Pods-AllInOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8813744BE7B26A534D91EA4289D5424B /* Pods-AllInOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9DCC833AEACEAC21F569BEBB9170D86 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89078607F2D3B42A2D6AF1C3DB81134 /* DPDConstants.swift */; };
+		EB192BAAC251F318108096982D463DD7 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C475FA51BC2FA1ACED9BB762F922A3 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF168F05DFAE21A2FFF0BD61B869E2BB /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A19441723E50EAD23F517C89D1010654 /* DropDownCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,62 +38,107 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9F23850529B2231634883EB40D6A7939;
+			remoteGlobalIDString = 06A90A3C0AC8ADE4CB64125B6DC44D44;
 			remoteInfo = "Pods-AllInOne";
+		};
+		7F78E70C41B50E09A389F729FD7A5E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2196863809877F38D3DB6AF40BAD2528;
+			remoteInfo = "Toast-Swift";
 		};
 		D3AB6572E3B84CC5AE2A62AC17518336 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9F23850529B2231634883EB40D6A7939;
+			remoteGlobalIDString = 06A90A3C0AC8ADE4CB64125B6DC44D44;
 			remoteInfo = "Pods-AllInOne";
+		};
+		E40EEE23727585E558D58116636F8A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD1ECC3979ED6D745803FF751221D70C;
+			remoteInfo = DropDown;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C475FA51BC2FA1ACED9BB762F922A3 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
 		020FA73138B2E6AF1D1F178215A0D31C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E8C361681E7938D0EFEE77657FB76CE /* Pods-AllInOneTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AllInOneTests-umbrella.h"; sourceTree = "<group>"; };
-		195878A03D27E476A57DACC87DA1E12F /* Pods_AllInOneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllInOneTests.framework; path = "Pods-AllInOneTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9310556BBE996AE628441592FB1181 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1BA93B8641C60179F3A092B9A4570CCF /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC54DBD1437BDC8A33A69190146432D /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
 		22F2AE178D8AD9DF9451A8CB86698DE3 /* Pods-AllInOneUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AllInOneUITests-dummy.m"; sourceTree = "<group>"; };
+		230F9D0C39FEA9719F9AB0314515DEDE /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		271031A17C91F808578727A21B657A63 /* Pods_AllInOneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllInOneUITests.framework; path = "Pods-AllInOneUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		324C8A8FD18764153B866DDB50F8B0F7 /* Pods-AllInOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AllInOne-dummy.m"; sourceTree = "<group>"; };
 		3C0390396F8471B361D91F72A0459708 /* Pods-AllInOne-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllInOne-acknowledgements.plist"; sourceTree = "<group>"; };
 		3D7F2F16FF116F639EBD793C622D2E5B /* Pods-AllInOneTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllInOneTests-frameworks.sh"; sourceTree = "<group>"; };
+		4509C75CDEE103661AAEA2AABC010CBF /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
 		481DA2BF626B54FB3975CF00B7F02DD7 /* Pods-AllInOne-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllInOne-frameworks.sh"; sourceTree = "<group>"; };
+		4CB9C816A952650A31CABBAAD785BEE1 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		4D36CB3F142B1A06C3F59C8D3BF616A6 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		4D6536BA85A84A6A7603BC1821976008 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		523308B729B9226B53BEAA11799E2AA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5297E84C0789163A019F9BE69D249730 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53F0A1F765B1EAE3986735080CAAB1F0 /* Pods-AllInOneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllInOneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56A1C16124B98A402CC91D55D2C80C15 /* Pods_AllInOneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllInOneTests.framework; path = "Pods-AllInOneTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58679F4EA3AA740AF2324B8103ED0E98 /* Pods-AllInOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllInOne.debug.xcconfig"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5BA98AFFE5E61FFE943440F235ED2EAC /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
 		6553E737C58F57BD76A61ED48B878D32 /* Pods-AllInOne-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AllInOne-acknowledgements.markdown"; sourceTree = "<group>"; };
 		679D4879532EF0D2715E13C280E514E2 /* Pods-AllInOneUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllInOneUITests-resources.sh"; sourceTree = "<group>"; };
 		6F0D6CD14C51C73B23EBBA7D6C37C628 /* Pods-AllInOneUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AllInOneUITests.modulemap"; sourceTree = "<group>"; };
 		71FEF26283F76D337298340664332A67 /* Pods-AllInOneUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AllInOneUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		75398CE0972DB35FBAA9660400712353 /* Pods-AllInOneUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllInOneUITests-frameworks.sh"; sourceTree = "<group>"; };
+		775B0F882A9D0C921445F3A1F1B52994 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		7E6C3E0587DF7816CD3F4D79BCD83E69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F971D5ACAFDA9F2A4327E21F6C27E87 /* Pods-AllInOneTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AllInOneTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		874F5336C258307B34AE1290D5904EC3 /* Pods-AllInOneTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AllInOneTests-dummy.m"; sourceTree = "<group>"; };
 		8813744BE7B26A534D91EA4289D5424B /* Pods-AllInOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AllInOne-umbrella.h"; sourceTree = "<group>"; };
+		926D7DB7AF05CDDDE505056F4A347A1E /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CF13BCB9D36F1319E01CAB18FE2FBA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A19441723E50EAD23F517C89D1010654 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
 		A38CAD62A608B8140F7C47E80F04DC6A /* Pods-AllInOneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllInOneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A78793D0421D16E0B882CADBEA3BBF88 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
 		AA4A85122784439135D1F5F37A3C29FD /* Pods-AllInOneTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllInOneTests-resources.sh"; sourceTree = "<group>"; };
 		AAD49E21F2F0B6A8A06BAB89164CB02A /* Pods-AllInOneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllInOneTests.release.xcconfig"; sourceTree = "<group>"; };
-		AB548D2332EBC4B69ABDB5AA3A34242B /* Pods_AllInOneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllInOneUITests.framework; path = "Pods-AllInOneUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD70EBC0497589DEF875A7A03EEA05F8 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		C18FE8685A0502105191B5E3181DEA53 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		C2800720638E3C0FA4884F3CEEDC86D2 /* Pods_AllInOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllInOne.framework; path = "Pods-AllInOne.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C776365537932DD1673D1EE9F21035C9 /* Pods-AllInOneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllInOneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEDF33D3D375AEB4314903C8EDB8D55F /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		D2C5C39F0B2879803876C40E86910C74 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		D2E8699FB92A2E36AAB0724B9C1754F1 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
 		D525E228FAEEA87AC9BA30BADD5F628C /* Pods-AllInOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllInOne.release.xcconfig"; sourceTree = "<group>"; };
 		D70E8888C70716A361519AA771A113C9 /* Pods-AllInOneTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AllInOneTests.modulemap"; sourceTree = "<group>"; };
 		DA0971AEAB6D8D9FF501DA05E9FBD9BB /* Pods-AllInOneUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AllInOneUITests-umbrella.h"; sourceTree = "<group>"; };
+		DB1CFDDBAE24DF216C25320E142F429C /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE0EE35BAAC24EE9EC5127E4DDD593B /* Pods-AllInOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AllInOne.modulemap"; sourceTree = "<group>"; };
-		E329DF4C545947481EE7D9BE9D9255BE /* Pods_AllInOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllInOne.framework; path = "Pods-AllInOne.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89078607F2D3B42A2D6AF1C3DB81134 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		F4ACEE7103AB81CD243EA56E15F64466 /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
 		F64C806BC5DFB61BA0184B974F90604E /* Pods-AllInOneUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllInOneUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F9AF7B78AAA106360F2AA3D577F50E20 /* Pods-AllInOne-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllInOne-resources.sh"; sourceTree = "<group>"; };
 		FE16614B014EF37A45F7E864D6E69D35 /* Pods-AllInOneTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllInOneTests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35DE6036DAB9C00E090AAA94C83AC11D /* Frameworks */ = {
+		14D3E95D9A5D9F285B46AF5C488DF9C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A6A96BED89E14303CEFE5F406E3D4C /* Foundation.framework in Frameworks */,
+				5DA5091B42B3A68CCC1C9925D0F2B587 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4446B0A3B23383BE2A37E7A7C9BDAC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7C25F95681B9D5EBDB138D950EDDE1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,9 +158,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBE75596D1FC23624EFC30C41A965052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5917A09A6E5D2ECC01CE06228B4FB15E /* Foundation.framework in Frameworks */,
+				8EF278C1AFE4C32B1F9E80BE7726C804 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1632A32F246F7A2ED66A9EF4B2187C92 /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C18FE8685A0502105191B5E3181DEA53 /* Toast.swift */,
+				A134C5300EFE12D26FABCFEE34D545DD /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56933BB70C933E0BF63210DD87D76AD0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4806D5F13FC03455CE7C6FC7ED3CD1D7 /* Pods-AllInOne */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +206,15 @@
 			path = "Target Support Files/Pods-AllInOne";
 			sourceTree = "<group>";
 		};
+		56933BB70C933E0BF63210DD87D76AD0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0F9310556BBE996AE628441592FB1181 /* Foundation.framework */,
+				9CF13BCB9D36F1319E01CAB18FE2FBA7 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		57CDEAA048B1A277F24751A54724186E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,20 +225,44 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		5D28477233617794455655F8D082D2A7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				AD70EBC0497589DEF875A7A03EEA05F8 /* DropDown.modulemap */,
+				F4ACEE7103AB81CD243EA56E15F64466 /* DropDown.xcconfig */,
+				775B0F882A9D0C921445F3A1F1B52994 /* DropDown-dummy.m */,
+				230F9D0C39FEA9719F9AB0314515DEDE /* DropDown-prefix.pch */,
+				4509C75CDEE103661AAEA2AABC010CBF /* DropDown-umbrella.h */,
+				7E6C3E0587DF7816CD3F4D79BCD83E69 /* Info.plist */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
 			sourceTree = "<group>";
 		};
-		7056AAD56FE9514E82AA74D7266FF544 /* Products */ = {
+		63A0CFB61A299A54709980D1F0975006 /* DropDown */ = {
 			isa = PBXGroup;
 			children = (
-				E329DF4C545947481EE7D9BE9D9255BE /* Pods_AllInOne.framework */,
-				195878A03D27E476A57DACC87DA1E12F /* Pods_AllInOneTests.framework */,
-				AB548D2332EBC4B69ABDB5AA3A34242B /* Pods_AllInOneUITests.framework */,
+				E89078607F2D3B42A2D6AF1C3DB81134 /* DPDConstants.swift */,
+				CEDF33D3D375AEB4314903C8EDB8D55F /* DPDKeyboardListener.swift */,
+				D2E8699FB92A2E36AAB0724B9C1754F1 /* DPDUIView+Extension.swift */,
+				5BA98AFFE5E61FFE943440F235ED2EAC /* DropDown.swift */,
+				1BC54DBD1437BDC8A33A69190146432D /* DropDown+Appearance.swift */,
+				4CB9C816A952650A31CABBAAD785BEE1 /* DropDownCell.swift */,
+				A9F7C76E15BE4F60A172C25FED71E6FB /* Resources */,
+				5D28477233617794455655F8D082D2A7 /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		6A8B74797C24F1EE25A852CDD04A9F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1CFDDBAE24DF216C25320E142F429C /* DropDown.framework */,
+				C2800720638E3C0FA4884F3CEEDC86D2 /* Pods_AllInOne.framework */,
+				56A1C16124B98A402CC91D55D2C80C15 /* Pods_AllInOneTests.framework */,
+				271031A17C91F808578727A21B657A63 /* Pods_AllInOneUITests.framework */,
+				1BA93B8641C60179F3A092B9A4570CCF /* Toast_Swift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,18 +271,42 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7056AAD56FE9514E82AA74D7266FF544 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				B146EC992CD4C79FF392941E6082D302 /* Pods */,
+				6A8B74797C24F1EE25A852CDD04A9F11 /* Products */,
 				57CDEAA048B1A277F24751A54724186E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A134C5300EFE12D26FABCFEE34D545DD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				4D6536BA85A84A6A7603BC1821976008 /* Info.plist */,
+				A78793D0421D16E0B882CADBEA3BBF88 /* Toast-Swift.modulemap */,
+				926D7DB7AF05CDDDE505056F4A347A1E /* Toast-Swift.xcconfig */,
+				4D36CB3F142B1A06C3F59C8D3BF616A6 /* Toast-Swift-dummy.m */,
+				D2C5C39F0B2879803876C40E86910C74 /* Toast-Swift-prefix.pch */,
+				01C475FA51BC2FA1ACED9BB762F922A3 /* Toast-Swift-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		A9F7C76E15BE4F60A172C25FED71E6FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A19441723E50EAD23F517C89D1010654 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B146EC992CD4C79FF392941E6082D302 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63A0CFB61A299A54709980D1F0975006 /* DropDown */,
+				1632A32F246F7A2ED66A9EF4B2187C92 /* Toast-Swift */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D710FFE875CD686CC814764924277867 /* Pods-AllInOneTests */ = {
@@ -212,11 +356,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DE459BCBA09EB12E75EBE5FFAAA1E24 /* Headers */ = {
+		8590E63FDE0BC1DC1A1D293E59D74F00 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DBB73AA0571403BF12B9F102843B690 /* Pods-AllInOne-umbrella.h in Headers */,
+				EB192BAAC251F318108096982D463DD7 /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF5E658114668AAA33027DECFF1AE71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78BEC212C7FEAB258C62037FDC2CE0A /* Pods-AllInOne-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,9 +380,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C30D98263CC89C39DE616F507092D788 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59E75CB029C100A622924064730EE7A /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		06A90A3C0AC8ADE4CB64125B6DC44D44 /* Pods-AllInOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A49FE03C421D7CE79784F00C37E6482 /* Build configuration list for PBXNativeTarget "Pods-AllInOne" */;
+			buildPhases = (
+				8AF5E658114668AAA33027DECFF1AE71 /* Headers */,
+				1E28067778186A5430949AC176695665 /* Sources */,
+				14D3E95D9A5D9F285B46AF5C488DF9C2 /* Frameworks */,
+				D85F36743856BEF68A5B100A3E35FE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD15F63BC6BF568D5E7D1CD57E288681 /* PBXTargetDependency */,
+				3DCB4515F265C05D908B0476732BDFA1 /* PBXTargetDependency */,
+			);
+			name = "Pods-AllInOne";
+			productName = "Pods-AllInOne";
+			productReference = C2800720638E3C0FA4884F3CEEDC86D2 /* Pods_AllInOne.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		0847BA003DDB6A1E1D46DEC7EC6D92AB /* Pods-AllInOneTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FEACC71625E90B5C4C55DF8AB8852A2 /* Build configuration list for PBXNativeTarget "Pods-AllInOneTests" */;
@@ -247,25 +427,25 @@
 			);
 			name = "Pods-AllInOneTests";
 			productName = "Pods-AllInOneTests";
-			productReference = 195878A03D27E476A57DACC87DA1E12F /* Pods_AllInOneTests.framework */;
+			productReference = 56A1C16124B98A402CC91D55D2C80C15 /* Pods_AllInOneTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9F23850529B2231634883EB40D6A7939 /* Pods-AllInOne */ = {
+		2196863809877F38D3DB6AF40BAD2528 /* Toast-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA757A676D24A56186CD8053D941B99C /* Build configuration list for PBXNativeTarget "Pods-AllInOne" */;
+			buildConfigurationList = D9AFC356159E661E77421FF7885210B7 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
 			buildPhases = (
-				6DE459BCBA09EB12E75EBE5FFAAA1E24 /* Headers */,
-				BDA48C45631F2B86FEFD322CCE139963 /* Sources */,
-				35DE6036DAB9C00E090AAA94C83AC11D /* Frameworks */,
-				167800F2D297DA6BDD0D697A3E2D42E4 /* Resources */,
+				8590E63FDE0BC1DC1A1D293E59D74F00 /* Headers */,
+				192E7C361284A534DD755876B13D592B /* Sources */,
+				FBE75596D1FC23624EFC30C41A965052 /* Frameworks */,
+				99C18A02D2BD2EB79BC1C33AE5B82D49 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-AllInOne";
-			productName = "Pods-AllInOne";
-			productReference = E329DF4C545947481EE7D9BE9D9255BE /* Pods_AllInOne.framework */;
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = 1BA93B8641C60179F3A092B9A4570CCF /* Toast_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C29DDA0D2434137AFD1693EF4307E22E /* Pods-AllInOneUITests */ = {
@@ -284,7 +464,25 @@
 			);
 			name = "Pods-AllInOneUITests";
 			productName = "Pods-AllInOneUITests";
-			productReference = AB548D2332EBC4B69ABDB5AA3A34242B /* Pods_AllInOneUITests.framework */;
+			productReference = 271031A17C91F808578727A21B657A63 /* Pods_AllInOneUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD1ECC3979ED6D745803FF751221D70C /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA336CF301A80A832FE821A4157B24CB /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				C30D98263CC89C39DE616F507092D788 /* Headers */,
+				3ADCE2BE57BDA56AE1CB3CE9A38A4F5C /* Sources */,
+				4446B0A3B23383BE2A37E7A7C9BDAC6D /* Frameworks */,
+				A3FEE9F76E64532EA9614DAB44A57029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = DB1CFDDBAE24DF216C25320E142F429C /* DropDown.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -304,25 +502,20 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7056AAD56FE9514E82AA74D7266FF544 /* Products */;
+			productRefGroup = 6A8B74797C24F1EE25A852CDD04A9F11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F23850529B2231634883EB40D6A7939 /* Pods-AllInOne */,
+				FD1ECC3979ED6D745803FF751221D70C /* DropDown */,
+				06A90A3C0AC8ADE4CB64125B6DC44D44 /* Pods-AllInOne */,
 				0847BA003DDB6A1E1D46DEC7EC6D92AB /* Pods-AllInOneTests */,
 				C29DDA0D2434137AFD1693EF4307E22E /* Pods-AllInOneUITests */,
+				2196863809877F38D3DB6AF40BAD2528 /* Toast-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		167800F2D297DA6BDD0D697A3E2D42E4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7749F283D5D985503EEFD516F0260FFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,9 +530,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		99C18A02D2BD2EB79BC1C33AE5B82D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FEE9F76E64532EA9614DAB44A57029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF168F05DFAE21A2FFF0BD61B869E2BB /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F36743856BEF68A5B100A3E35FE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		192E7C361284A534DD755876B13D592B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AE315853D6F6C80CD981C60DC6AEFC /* Toast-Swift-dummy.m in Sources */,
+				703FE57F6198F5F8AF342012E78DDB05 /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E28067778186A5430949AC176695665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9117999586431C5C3DA383CEE081F6F1 /* Pods-AllInOne-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADCE2BE57BDA56AE1CB3CE9A38A4F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DCC833AEACEAC21F569BEBB9170D86 /* DPDConstants.swift in Sources */,
+				49D9535D4C5F930D4030341ED2F96A35 /* DPDKeyboardListener.swift in Sources */,
+				240A0F0EFC70E12766B3BDF2370CB6E7 /* DPDUIView+Extension.swift in Sources */,
+				C3851EB5463F8F3669AC09D6B1376A88 /* DropDown+Appearance.swift in Sources */,
+				573FA8A312D833DA2F1FF734419EE989 /* DropDown-dummy.m in Sources */,
+				94A7DFD684BC8AE0EEF13BA17610C7C6 /* DropDown.swift in Sources */,
+				89A682C4E3E4B1B55085832D4CFB4ADA /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F27365B906B197E7D7914EF053066EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,27 +602,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDA48C45631F2B86FEFD322CCE139963 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E77370F2711705DDBD72B33725EC11E /* Pods-AllInOne-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3DCB4515F265C05D908B0476732BDFA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = 2196863809877F38D3DB6AF40BAD2528 /* Toast-Swift */;
+			targetProxy = 7F78E70C41B50E09A389F729FD7A5E18 /* PBXContainerItemProxy */;
+		};
 		B86D008DB906251347449009009BA232 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AllInOne";
-			target = 9F23850529B2231634883EB40D6A7939 /* Pods-AllInOne */;
+			target = 06A90A3C0AC8ADE4CB64125B6DC44D44 /* Pods-AllInOne */;
 			targetProxy = 3E34E7323FF2156897A5F05498942F27 /* PBXContainerItemProxy */;
+		};
+		BD15F63BC6BF568D5E7D1CD57E288681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = FD1ECC3979ED6D745803FF751221D70C /* DropDown */;
+			targetProxy = E40EEE23727585E558D58116636F8A1E /* PBXContainerItemProxy */;
 		};
 		CB218BDD5F5972B890F45A97DEFEECC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AllInOne";
-			target = 9F23850529B2231634883EB40D6A7939 /* Pods-AllInOne */;
+			target = 06A90A3C0AC8ADE4CB64125B6DC44D44 /* Pods-AllInOne */;
 			targetProxy = D3AB6572E3B84CC5AE2A62AC17518336 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -420,6 +670,80 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		1AD9261FF57EBF4723FCBD641E3DD4B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926D7DB7AF05CDDDE505056F4A347A1E /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29946C23FD167C41B517FE3C94EECE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926D7DB7AF05CDDDE505056F4A347A1E /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		2A86A37B260DC0CB88CC823F818412EC /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -519,6 +843,42 @@
 			};
 			name = Release;
 		};
+		5E9998605E35C66EC6878BAC576C7078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4ACEE7103AB81CD243EA56E15F64466 /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		802586E55A9C66A3DF64DE62550814CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C776365537932DD1673D1EE9F21035C9 /* Pods-AllInOneUITests.debug.xcconfig */;
@@ -551,6 +911,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80C4771F5EB3327E3408640D62160977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58679F4EA3AA740AF2324B8103ED0E98 /* Pods-AllInOne.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AllInOne/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AllInOne/Pods-AllInOne.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -621,6 +1021,85 @@
 			};
 			name = Debug;
 		};
+		8B42038E1A850B944E6880711A7FE725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D525E228FAEEA87AC9BA30BADD5F628C /* Pods-AllInOne.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AllInOne/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AllInOne/Pods-AllInOne.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D67C3C294B7EEA13C6A19F44CB8DE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4ACEE7103AB81CD243EA56E15F64466 /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A84BBEADF3AB5673F5687B52777A33F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A38CAD62A608B8140F7C47E80F04DC6A /* Pods-AllInOneTests.debug.xcconfig */;
@@ -659,83 +1138,6 @@
 			};
 			name = Debug;
 		};
-		FB9822DAFACBF33E56CB5641AA2A9FBE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D525E228FAEEA87AC9BA30BADD5F628C /* Pods-AllInOne.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AllInOne/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AllInOne/Pods-AllInOne.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FF6471BD3AAF2C44BABBD7A80E0AB634 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58679F4EA3AA740AF2324B8103ED0E98 /* Pods-AllInOne.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AllInOne/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AllInOne/Pods-AllInOne.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -757,11 +1159,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA757A676D24A56186CD8053D941B99C /* Build configuration list for PBXNativeTarget "Pods-AllInOne" */ = {
+		8A49FE03C421D7CE79784F00C37E6482 /* Build configuration list for PBXNativeTarget "Pods-AllInOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF6471BD3AAF2C44BABBD7A80E0AB634 /* Debug */,
-				FB9822DAFACBF33E56CB5641AA2A9FBE /* Release */,
+				80C4771F5EB3327E3408640D62160977 /* Debug */,
+				8B42038E1A850B944E6880711A7FE725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA336CF301A80A832FE821A4157B24CB /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9998605E35C66EC6878BAC576C7078 /* Debug */,
+				9D67C3C294B7EEA13C6A19F44CB8DE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9AFC356159E661E77421FF7885210B7 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29946C23FD167C41B517FE3C94EECE90 /* Debug */,
+				1AD9261FF57EBF4723FCBD641E3DD4B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
