@@ -14,6 +14,8 @@
 		54062FAE2168698D003B2A90 /* ImageInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54062FAD2168698D003B2A90 /* ImageInsets.swift */; };
 		544B94AF2169C78D000CBD07 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544B94AE2169C78D000CBD07 /* DataService.swift */; };
 		547176E9216DD2A60024FBAE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547176E8216DD2A60024FBAE /* DetailViewController.swift */; };
+		547328352174F4D400CBA3F5 /* ServiceViewCellDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547328342174F4D400CBA3F5 /* ServiceViewCellDelegator.swift */; };
+		547328372174F89600CBA3F5 /* DetailToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547328362174F89600CBA3F5 /* DetailToolViewController.swift */; };
 		54B3410B216F2D3100E2B198 /* ReparingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B3410A216F2D3100E2B198 /* ReparingViewController.swift */; };
 		54B3410D216F35AD00E2B198 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B3410C216F35AD00E2B198 /* Font.swift */; };
 		54B3410F216FAD2400E2B198 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B3410E216FAD2400E2B198 /* WelcomeViewController.swift */; };
@@ -63,6 +65,8 @@
 		54062FAD2168698D003B2A90 /* ImageInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInsets.swift; sourceTree = "<group>"; };
 		544B94AE2169C78D000CBD07 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		547176E8216DD2A60024FBAE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		547328342174F4D400CBA3F5 /* ServiceViewCellDelegator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewCellDelegator.swift; sourceTree = "<group>"; };
+		547328362174F89600CBA3F5 /* DetailToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailToolViewController.swift; sourceTree = "<group>"; };
 		54B3410A216F2D3100E2B198 /* ReparingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReparingViewController.swift; sourceTree = "<group>"; };
 		54B3410C216F35AD00E2B198 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		54B3410E216FAD2400E2B198 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -167,8 +171,17 @@
 				54B34110216FB64A00E2B198 /* HelpViewController.swift */,
 				54F1C040217254F500378A4C /* MyCartViewController.swift */,
 				54F4D14721739ABE00A98A94 /* OrderHistoryViewController.swift */,
+				547328362174F89600CBA3F5 /* DetailToolViewController.swift */,
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		547328332174F4A700CBA3F5 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				547328342174F4D400CBA3F5 /* ServiceViewCellDelegator.swift */,
+			);
+			path = protocol;
 			sourceTree = "<group>";
 		};
 		AC323762216B090100D4B538 /* custom */ = {
@@ -208,6 +221,7 @@
 		AC3C144C21638068004D6BC9 /* AllInOne */ = {
 			isa = PBXGroup;
 			children = (
+				547328332174F4A700CBA3F5 /* protocol */,
 				547176E7216DD2790024FBAE /* controllers */,
 				AC323762216B090100D4B538 /* custom */,
 				54062FAC21686973003B2A90 /* extensions */,
@@ -391,6 +405,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AllInOne/Pods-AllInOne-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DateTimePicker/DateTimePicker.framework",
 				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 			);
@@ -398,6 +413,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateTimePicker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 			);
@@ -497,6 +513,8 @@
 				544B94AF2169C78D000CBD07 /* DataService.swift in Sources */,
 				AC323764216B092400D4B538 /* GradientView.swift in Sources */,
 				54F4D14821739ABE00A98A94 /* OrderHistoryViewController.swift in Sources */,
+				547328352174F4D400CBA3F5 /* ServiceViewCellDelegator.swift in Sources */,
+				547328372174F89600CBA3F5 /* DetailToolViewController.swift in Sources */,
 				54F4D1462173957300A98A94 /* OrderHistory.swift in Sources */,
 				54F4D14C21739BF800A98A94 /* OrderHistoryTableViewCell.swift in Sources */,
 			);

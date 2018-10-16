@@ -31,7 +31,11 @@ class OrderHistoryTableViewCell: UITableViewCell {
         let dateFormatterGet = DateFormatter()
         dateFormatterGet.dateFormat = "dd/MM/yyyy"
         lblDate.text = dateFormatterGet.string(from: orderHistory.date)
-        lblTotal.text = "Total: $ "  + String(Int(orderHistory.order.number) * Int((orderHistory.order.service?.price)!))
+        if((orderHistory.order.service?.price)! > 0) {
+            lblTotal.text = "Total: $ "  + String(Int(orderHistory.order.number) * Int((orderHistory.order.service?.price)!))
+        } else {
+            lblTotal.text = "Free"
+        }
     }
 
 }

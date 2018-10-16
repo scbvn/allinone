@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, ServiceViewCellDelegator {
+    
+    var currentSelectedService: Service!
     
     var serviceData = Array<GroupService>()
     
@@ -23,10 +25,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.lblNumOfDetail.text = item.getIntroducing()
         cell.imgGroupIco.image = UIImage(named: item.image)
         cell.services = item
+        cell.delegate = self
         
         return cell
     }
     
+    func callSegueFromCell(data dataObject: Service) {
+        currentSelectedService = dataObject
+        if(dataObject.dataType == 0 || dataObject.dataType == 1) {
+            performSegue(withIdentifier: "segue_detail", sender: dataObject)
+        } else {
+            performSegue(withIdentifier: "segue_tool", sender: dataObject)
+        }
+    }
 
     @IBOutlet weak var tbvServices: UITableView!
     override func viewDidLoad() {
@@ -41,11 +52,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let controller = segue.destination as? DetailViewController, segue.identifier == "segue_detail", let cell = sender as? ServiceCollectionViewCell else {
-            return
+        if( segue.identifier == "segue_detail") {
+            let controller = segue.destination as! DetailViewController
+            controller.service = self.currentSelectedService
+        } else if(segue.identifier == "segue_tool") {
+            let controller = segue.destination as! DetailToolViewController
+            controller.service = self.currentSelectedService
         }
         
-        controller.service = cell.service
+        
         
     }
     

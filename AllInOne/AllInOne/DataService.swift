@@ -23,15 +23,24 @@ struct DataService {
         group1.image = "ic_foods"
         group1.introducing = " foods for today"
         var services = Array<Service>()
-        for _ in 1...10 {
             var service = Service()
             service.name = "Bun bo Hue"
             service.content = "“Bún Bò Huế” is very unusual by combining beef and pork in one dish harmoniously. It tastes sweet of bones borth, salty of Hue shrimp paste, sour of pineapples and spicy of chilies at once."
-            service.price = 10
-            service.image = "food"
+            service.price = 0
+            service.image = "bunbo"
             service.subInfo = "250 calories"
+            service.dataType = 2
             services.append(service)
-        }
+        
+        var service = Service()
+        service.name = "Bun bo Hue"
+        service.content = "“Bún Bò Huế” is very unusual by combining beef and pork in one dish harmoniously. It tastes sweet of bones borth, salty of Hue shrimp paste, sour of pineapples and spicy of chilies at once."
+        service.price = 0
+        service.image = "bunbo"
+        service.subInfo = "250 calories"
+        service.dataType = 2
+        services.append(service)
+        
         group1.services = services
         servicesGroups.append(group1)
         
@@ -78,7 +87,12 @@ struct DataService {
     }
     
     mutating func addToCart(service: Service, number: Int) {
-        let order = Order(service: service, number: number)
+        let order = Order(service: service, number: number, startTime: nil, endTime: nil)
+        self.basketList.append(order)
+    }
+    
+    mutating func addToCart(service: Service, number: Int, startTime: Date, endTime: Date) {
+        let order = Order(service: service, number: number, startTime: startTime, endTime: endTime)
         self.basketList.append(order)
     }
     

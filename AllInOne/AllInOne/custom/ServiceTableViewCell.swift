@@ -10,6 +10,8 @@ import UIKit
 
 class ServiceTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
     
+    var delegate: ServiceViewCellDelegator!
+    
     var services: GroupService?
     
     @IBOutlet weak var serviceItems: UICollectionView!
@@ -32,8 +34,8 @@ class ServiceTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollect
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        self.delegate.callSegueFromCell(data: (services?.services[indexPath.row])!)
     }
-    
 
     override func awakeFromNib() {
         super.awakeFromNib()

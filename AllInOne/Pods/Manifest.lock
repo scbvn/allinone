@@ -1,20 +1,24 @@
 PODS:
+  - DateTimePicker (2.1.2)
   - DropDown (2.3.9)
   - Toast-Swift (4.0.0)
 
 DEPENDENCIES:
+  - DateTimePicker
   - DropDown (~> 2.3.3)
   - Toast-Swift (~> 4.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - DateTimePicker
     - DropDown
     - Toast-Swift
 
 SPEC CHECKSUMS:
+  DateTimePicker: 111a1ca10b390ac315fdf3e85a5941fd4f72dfb7
   DropDown: d187d4abdfa708a2990aff0f4fcfab77c6b161df
   Toast-Swift: 594b5c5e5129f15438e410207e43287f027b3c00
 
-PODFILE CHECKSUM: 41bb3df78697b54088d215b6e533d44e3222e0a0
+PODFILE CHECKSUM: 9a993dee4b426bc24780dfed30a08a7ba11b4251
 
 COCOAPODS: 1.5.3

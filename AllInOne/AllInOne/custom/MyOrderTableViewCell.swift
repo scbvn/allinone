@@ -29,7 +29,11 @@ class MyOrderTableViewCell: UITableViewCell {
         imgImage.image = UIImage(named: (order.service?.image)!)
         lblName.text = order.service?.name
         lblNumber.text = "Quantity:" + String(order.number)
-        lblTotalPrice.text = "$ "  + String(Int(order.number) * Int((order.service?.price)!))
+        if((order.service?.price)! > 0) {
+            lblTotalPrice.text = "$ "  + String(Int(order.number) * Int((order.service?.price)!))
+        } else {
+            lblTotalPrice.text = "Free"
+        }
     }
 
 }

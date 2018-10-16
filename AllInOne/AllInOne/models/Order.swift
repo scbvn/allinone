@@ -11,11 +11,19 @@ import Foundation
 struct Order {
     var service: Service?
     var number: Int
-    
+    var startTime: Date?
+    var endTime: Date?
     func calculateTotalAmount() -> Float {
         guard let _ = service, number > 0 else {
             return 0
         }
-        return service!.price * Float(number)
+        
+        if(service?.dataType == 0) {
+            return service!.price * Float(number)
+        } else {
+            //calculate duration
+            return service!.price * Float(number)
+        }
+        
     }
 }
