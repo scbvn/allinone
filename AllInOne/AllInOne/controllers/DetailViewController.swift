@@ -11,6 +11,7 @@ import Toast_Swift
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var btnCallUs: UIButton!
     var service: Service!
     @IBOutlet weak var lblSubInfo: UILabel!
     @IBOutlet weak var lblPrice: UILabel!
@@ -28,7 +29,7 @@ class DetailViewController: UIViewController {
         lblName.text = service.name
         lblMainContent.text = service.content
         
-        if(service.dataType == 1) {
+        if(service.dataType == 1 || service.dataType == 3) {
             lblTotalPrice.isHidden = true
             lblPrice.isHidden = true
             stInOrderNumber.isHidden = true
@@ -47,6 +48,11 @@ class DetailViewController: UIViewController {
         lblSubInfo.text = service.subInfo
         let orderNumber = self.lblOrderNumber.text;
         lblTotalPrice.text = "$ "  + String(Int(orderNumber!)! * Int(service.price))
+        if(service.dataType == 3) {
+            btnCallUs.isHidden = false
+            btnAddToCard.isHidden = true
+            lblTotalPrice.isHidden = true;
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -63,6 +69,7 @@ class DetailViewController: UIViewController {
     @IBAction func actionAddToCart(_ sender: UIButton) {
         dataService.addToCart(service: service, number: Int(lblOrderNumber.text!)!)
         self.view.makeToast("Added to your cart")
+        dataService.notifyToUpdateBadge()
     }
     /*
     // MARK: - Navigation

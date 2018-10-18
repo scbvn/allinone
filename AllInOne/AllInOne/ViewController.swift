@@ -14,6 +14,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var serviceData = Array<GroupService>()
     
+    func registerUpdateOrderNotification() {
+        NotificationCenter.default.addObserver(self, selector: #selector(updateBadge), name: .updateBadge, object: nil)
+    }
+    
+    @objc func updateBadge() {
+        let numberOfOrder = dataService.getCart().count
+        if(numberOfOrder > 0) {
+            self.tabBarController?.tabBar.items?[3].badgeValue = String(numberOfOrder)
+        } else {
+            self.tabBarController?.tabBar.items?[3].badgeValue = nil
+        }
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return serviceData.count
     }
@@ -25,6 +38,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.lblNumOfDetail.text = item.getIntroducing()
         cell.imgGroupIco.image = UIImage(named: item.image)
         cell.services = item
+        cell.configService()
         cell.delegate = self
         
         return cell
@@ -32,7 +46,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func callSegueFromCell(data dataObject: Service) {
         currentSelectedService = dataObject
-        if(dataObject.dataType == 0 || dataObject.dataType == 1) {
+        if(dataObject.dataType == 0 || dataObject.dataType == 1 || dataObject.dataType == 3) {
             performSegue(withIdentifier: "segue_detail", sender: dataObject)
         } else {
             performSegue(withIdentifier: "segue_tool", sender: dataObject)
@@ -46,9 +60,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.navigationItem.title = "Services"
         tbvServices.dataSource = self
         tbvServices.delegate = self
-        serviceData = DataService.getServiceData()
+        serviceData = dataService.loadServiceData()!
         customNavigationBar()
-        
+        registerUpdateOrderNotification()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

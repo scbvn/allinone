@@ -1,0 +1,219 @@
+[
+    {
+        "name":"Foods",
+        "image":"ic_foods",
+        "introducing": " foods for today",
+        "services": [
+            {
+                "name":"Bun bo Hue",
+                "price": 20,
+                "content":"Bún bò Huế or bún bò is a popular Vietnamese soup containing rice vermicelli (bún) and beef (bò). Huế is a city in central Vietnam associated with the cooking style of the former royal court. The dish is greatly admired for its balance of spicy, sour, salty, and umami flavors. The predominant flavor is that of lemongrass. Compared to phở or bún riêu, the noodles are thicker and more cylindrical",
+                "image":"bunbo",
+                "subInfo":"200 calories",
+                "dataType":0,
+                "priceType":2
+            },
+            {
+                "name":"Banh Khot",
+                "price": 15,
+                "content":"It’s a famous Vietnamese dish of miniature pancakes served with herbs and vegetables and spicy sweet fish sauce for dipping. The batter is made of a combination of mostly rice flour, and even leftover grains of rice, with a hint of turmeric to give them a beautiful yellow tinge, and mixed together with coconut milk to make it extra creamy and rich.",
+                "image":"banhkhot",
+                "subInfo":"150 calories",
+                "dataType":0,
+                "priceType":2
+            },
+            {
+                "name":"Beefsteak",
+                "price": 30,
+                "content":"A beefsteak is a type of banquet in which sliced beef tenderloin is served to diners as all-you-can-eat finger food. The dining style originated in 19th-century New York City as a type of working-class celebration but went into a decline in the mid-20th century",
+                "image":"beefsteak",
+                "subInfo":"300 calories",
+                "dataType":0,
+                "priceType":2
+            },
+            {
+                "name":"Chicken Fried",
+                "price": 10,
+                "content":"Country chicken is fried with the best fish sauce",
+                "image":"chicken_fride",
+                "subInfo":"200 calories",
+                "dataType":0,
+                "priceType":2
+            },
+            {
+                "name":"Yakisoba",
+                "price": 10,
+                "content":"Yakisoba (Japanese: 焼きそば [jakiꜜsoba]), literally 'fried buckwheat', is a Japanese noodle stir-fry dish. Although soba means buckwheat, yakisoba noodles are actually made from wheat flour, and are typically flavored with a condiment similar to oyster sauce. The dish first appeared in food stalls in Japan during the early 20th century.",
+                "image":"mixao",
+                "subInfo":"200 calories",
+                "dataType":0,
+                "priceType":2
+            },
+            {
+                "name":"Steamed Squid",
+                "price": 10,
+                "content":"Steam is the easiest way to prepare seafood and from this cooking method we can enjoy and taste the freshness of the seafood we are having. Recommend to switch with other seafood for this recipe.",
+                "image":"muchap",
+                "subInfo":"200 calories",
+                "dataType":0,
+                "priceType":2
+            },
+            {
+                "name":"Pho",
+                "price": 10,
+                "content":"Pho is a traditional Vietnamese dish, also considered one of the typical dishes for Vietnamese cuisine. The main ingredient of pho is rice noodles and broth (or southern style soups) along with sliced beef or chicken. Also included are spices such as: pepper, lemon, fish sauce, chili ... These spices are added depending on the taste of each user.",
+                "image":"pho",
+                "subInfo":"100 calories",
+                "dataType":0,
+                "priceType":2
+            }
+        ]
+    },
+    {
+        "name":"At the beach",
+        "image":"beach",
+        "introducing": " tools and activities",
+        "services":[
+            {
+                "name":"Life jacket",
+                "price": 10,
+                "content":"The Harmony Universal Life Jacket PFD is a one-size-fits-all personal flotation device that is the ultimate combination of convenience, value, and comfort. It's designed to fit a wide range of people and be used in a variety of watersport activities. Whether it's a day on the lake with the family, an outing in your canoe, or floating down a gentle stream in an inner tube, the Universal PFD will not let you down.",
+                "image":"aophao",
+                "subInfo":"",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Football ball",
+                "price": 5,
+                "content":"High quality ball for team buiding game, football match, water game...",
+                "image":"ball",
+                "subInfo":"",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Seven sins Yachts",
+                "price": 10000,
+                "content":"A 2018 World Superyacht Award Winner, M/Y SEVEN SINS Is The Largest Yacht Ever Built By Sanlorenzo, With Features Not Seen In Any Other Yacht In Her Size Range.",
+                "image":"yachts",
+                "subInfo":"",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Swimming glasses",
+                "price": 10,
+                "content":"Protect your eyes from sea water, UV",
+                "subInfo":"",
+                "image":"swimming_glasses",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Swimming suite for men",
+                "price": 14,
+                "content":"Allover floral and leaf print makes this swim briefs cooler. At the beach or by the pool, this pair of men's swim trunks will have you covered. Adjustable drawstring waist for a moderate fit.",
+                "subInfo":"",
+                "image":"swimming-costume-man",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Swimming suite for women",
+                "price": 14,
+                "content":"Allover floral and leaf print makes this swim briefs cooler. At the beach or by the pool, this pair of men's swim trunks will have you covered. Adjustable drawstring waist for a moderate fit.",
+                "subInfo":"",
+                "image":"swimming_suite",
+                "dataType":2,
+                "priceType":0
+            }
+        ]
+    },
+    {
+        "name":"Health Care",
+        "image":"health",
+        "introducing": " health care services",
+        "services":[
+            {
+                "name":"Doctor",
+                "price": 50,
+                "content":"We provide a best health care service with profesional doctor, nurse and morden medical equipment.",
+                "subInfo":"24/7. Please call us",
+                "image":"doctor",
+                "dataType":3,
+                "priceType":1
+            },
+            {
+                "name":"Thai Massage",
+                "price": 50,
+                "content":"Thai Massage is administered on a padded mat reminiscent of a giant futon cushion on the floor. The massage therapist manipulates your body into stretches to help relax your muscles and enhance muscle tone and flexibility.",
+                "subInfo":"Please call us",
+                "image":"maxa",
+                "dataType":3,
+                "priceType":1
+            }
+        ]
+    },
+    {
+        "name":"Sport",
+        "image":"fitness",
+        "introducing": " items for sport activities",
+        "services":[
+            {
+                "name":"Golf Bag",
+                "price": 100,
+                "content":"As golf golfer know Honma Golf is famous for the world's most luxurious golf club. Honma golfers are experienced Honma engineers, handcrafted extremely sophisticated, gold-plated genuine for high-end models.",
+                "subInfo":"",
+                "image":"golf",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Golf courses",
+                "price": 100,
+                "content":"This is an outstanding natural site with sea and wind swept sand dunes, tropical costal breezes and fantastic ocean views. Asian Golf Monthly magazine identified the course as one of the top-10 resort courses in Asia.",
+                "subInfo":"Please call us",
+                "image":"gold_yard",
+                "dataType":3,
+                "priceType":1
+            },
+            {
+                "name":"Gym",
+                "price": 100,
+                "content":"Our Gym Center has a Centuryon membership area, with extensive facilities and modern facilities, including Group X, Yoga, Dance, Crossfit, MMA and Kickfit facilities and services. Top 5 stars.",
+                "subInfo":"Free for guest",
+                "image":"gym",
+                "dataType":1,
+                "priceType":1
+            },
+            {
+                "name":"Badminton Racket",
+                "price": 10,
+                "content":"As golf golfer know Honma Golf is famous for the world's most luxurious golf club. Honma golfers are experienced Honma engineers, handcrafted extremely sophisticated, gold-plated genuine for high-end models.",
+                "subInfo":"",
+                "image":"racket_batminton",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Badminton Court",
+                "price": 100,
+                "content":"Olympic standard",
+                "subInfo":"Free for guest",
+                "image":"yard_badminton",
+                "dataType":1,
+                "priceType":1
+            },
+            {
+                "name":"Tennis Court",
+                "price": 100,
+                "content":"Olympic standard",
+                "subInfo":"Free for guest",
+                "image":"tennis_courts",
+                "dataType":1,
+                "priceType":1
+            }
+        ]
+    }
+]

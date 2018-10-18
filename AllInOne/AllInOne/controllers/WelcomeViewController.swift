@@ -28,6 +28,11 @@ class WelcomeViewController: UIViewController {
             vContainerEnterCode.isHidden = false;
             lblWelcome.isHidden = true
             btnCheckInOut.setTitle("Check in", for: UIControl.State.normal)
+            
+            //Do not allow other actions if the user has not checked in
+            for i in 1...4 {
+                self.tabBarController?.tabBar.items?[i].isEnabled = false
+            }
         }
     }
     
@@ -43,12 +48,21 @@ class WelcomeViewController: UIViewController {
             lblWelcome.isHidden = false
             btnCheckInOut.setTitle("Check out", for: UIControl.State.normal)
             UserDefaults.standard.set(true, forKey: "isCheckedIn")
+            
+            //enable features
+            for i in 1...4 {
+                self.tabBarController?.tabBar.items?[i].isEnabled = true
+            }
         } else {
             lblError.isHidden = true
             vContainerEnterCode.isHidden = false;
             lblWelcome.isHidden = true
             btnCheckInOut.setTitle("Check in", for: UIControl.State.normal)
             UserDefaults.standard.set(false, forKey: "isCheckedIn")
+            //Do not allow other actions if the user has not checked in
+            for i in 1...4 {
+                self.tabBarController?.tabBar.items?[i].isEnabled = false
+            }
         }
         
     }

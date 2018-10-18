@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct GroupService {
+struct GroupService: Codable {
     var name = String()
     var image = String()
     var services = Array<Service>()

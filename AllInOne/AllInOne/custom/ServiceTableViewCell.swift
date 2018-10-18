@@ -54,5 +54,9 @@ class ServiceTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollect
 
         // Configure the view for the selected state
     }
+    
+    func configService() {
+        serviceItems.reloadData()
+    }
 
 }

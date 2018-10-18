@@ -16,6 +16,8 @@
 		547176E9216DD2A60024FBAE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547176E8216DD2A60024FBAE /* DetailViewController.swift */; };
 		547328352174F4D400CBA3F5 /* ServiceViewCellDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547328342174F4D400CBA3F5 /* ServiceViewCellDelegator.swift */; };
 		547328372174F89600CBA3F5 /* DetailToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547328362174F89600CBA3F5 /* DetailToolViewController.swift */; };
+		5499941821763BB50096ADAB /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5499941721763BB50096ADAB /* data.json */; };
+		5499941A217726700096ADAB /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54999419217726700096ADAB /* Notification.swift */; };
 		54B3410B216F2D3100E2B198 /* ReparingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B3410A216F2D3100E2B198 /* ReparingViewController.swift */; };
 		54B3410D216F35AD00E2B198 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B3410C216F35AD00E2B198 /* Font.swift */; };
 		54B3410F216FAD2400E2B198 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B3410E216FAD2400E2B198 /* WelcomeViewController.swift */; };
@@ -67,6 +69,8 @@
 		547176E8216DD2A60024FBAE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		547328342174F4D400CBA3F5 /* ServiceViewCellDelegator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewCellDelegator.swift; sourceTree = "<group>"; };
 		547328362174F89600CBA3F5 /* DetailToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailToolViewController.swift; sourceTree = "<group>"; };
+		5499941721763BB50096ADAB /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		54999419217726700096ADAB /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		54B3410A216F2D3100E2B198 /* ReparingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReparingViewController.swift; sourceTree = "<group>"; };
 		54B3410C216F35AD00E2B198 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		54B3410E216FAD2400E2B198 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +162,7 @@
 			children = (
 				54062FAD2168698D003B2A90 /* ImageInsets.swift */,
 				54B3410C216F35AD00E2B198 /* Font.swift */,
+				54999419217726700096ADAB /* Notification.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -182,6 +187,14 @@
 				547328342174F4D400CBA3F5 /* ServiceViewCellDelegator.swift */,
 			);
 			path = protocol;
+			sourceTree = "<group>";
+		};
+		5499941421763B6A0096ADAB /* data */ = {
+			isa = PBXGroup;
+			children = (
+				5499941721763BB50096ADAB /* data.json */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 		AC323762216B090100D4B538 /* custom */ = {
@@ -221,6 +234,7 @@
 		AC3C144C21638068004D6BC9 /* AllInOne */ = {
 			isa = PBXGroup;
 			children = (
+				5499941421763B6A0096ADAB /* data */,
 				547328332174F4A700CBA3F5 /* protocol */,
 				547176E7216DD2790024FBAE /* controllers */,
 				AC323762216B090100D4B538 /* custom */,
@@ -376,6 +390,7 @@
 				AC3C14582163806B004D6BC9 /* LaunchScreen.storyboard in Resources */,
 				AC3C14552163806B004D6BC9 /* Assets.xcassets in Resources */,
 				AC3C145321638068004D6BC9 /* Main.storyboard in Resources */,
+				5499941821763BB50096ADAB /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +513,7 @@
 				AC3C145021638068004D6BC9 /* ViewController.swift in Sources */,
 				54062FAB21686068003B2A90 /* GroupService.swift in Sources */,
 				54062FAE2168698D003B2A90 /* ImageInsets.swift in Sources */,
+				5499941A217726700096ADAB /* Notification.swift in Sources */,
 				AC3C147C2165E777004D6BC9 /* ServiceTableViewCell.swift in Sources */,
 				54062FA921685ED6003B2A90 /* Service.swift in Sources */,
 				54062FA621685E8A003B2A90 /* ServiceCollectionViewCell.swift in Sources */,

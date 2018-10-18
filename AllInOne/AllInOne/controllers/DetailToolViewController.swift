@@ -75,6 +75,8 @@ class DetailToolViewController: UIViewController {
     @IBAction func actionPlaceOrder(_ sender: Any) {
         dataService.addToCart(service: service, number: Int(lblNumber.text!)!)
         self.view.makeToast("Added to your cart")
+        dataService.notifyToUpdateBadge()
+
     }
 
     @objc func tapFunction() {

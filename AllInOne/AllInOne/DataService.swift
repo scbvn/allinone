@@ -23,6 +23,7 @@ struct DataService {
         group1.image = "ic_foods"
         group1.introducing = " foods for today"
         var services = Array<Service>()
+        for _ in 1...10 {
             var service = Service()
             service.name = "Bun bo Hue"
             service.content = "“Bún Bò Huế” is very unusual by combining beef and pork in one dish harmoniously. It tastes sweet of bones borth, salty of Hue shrimp paste, sour of pineapples and spicy of chilies at once."
@@ -31,16 +32,7 @@ struct DataService {
             service.subInfo = "250 calories"
             service.dataType = 2
             services.append(service)
-        
-        var service = Service()
-        service.name = "Bun bo Hue"
-        service.content = "“Bún Bò Huế” is very unusual by combining beef and pork in one dish harmoniously. It tastes sweet of bones borth, salty of Hue shrimp paste, sour of pineapples and spicy of chilies at once."
-        service.price = 0
-        service.image = "bunbo"
-        service.subInfo = "250 calories"
-        service.dataType = 2
-        services.append(service)
-        
+        }
         group1.services = services
         servicesGroups.append(group1)
         
@@ -79,6 +71,11 @@ struct DataService {
         group6.services = services
         servicesGroups.append(group6)
         
+        let jsonEncoder = JSONEncoder()
+        let jsonData = try! jsonEncoder.encode(servicesGroups)
+        let jsonString = String(data: jsonData, encoding: .utf8)
+        print(jsonString)
+        
         return servicesGroups
     }
     
@@ -107,5 +104,31 @@ struct DataService {
     
     func getHistory() -> Array<OrderHistory> {
         return orderHistoryList
+    }
+    
+    static func loadDataFromFile() -> String? {
+        if let filepath = Bundle.main.path(forResource: "data", ofType: "json") {
+            do {
+                let contents = try String(contentsOfFile: filepath)
+                print(contents)
+                return contents
+            } catch {
+                // contents could not be loaded
+            }
+        }
+        return nil
+    }
+    
+    func loadServiceData() -> Array<GroupService>? {
+        if let stringData = DataService.loadDataFromFile() {
+            let jsonDecoder = JSONDecoder()
+            let groupServices = try! jsonDecoder.decode(Array<GroupService>.self, from: stringData.data(using: .utf8)!)
+            return groupServices
+        }
+        return nil
+    }
+    
+    func notifyToUpdateBadge() {
+        NotificationCenter.default.post(name: .updateBadge, object: nil)
     }
 }

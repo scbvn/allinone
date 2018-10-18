@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Order {
+struct Order: Codable {
     var service: Service?
     var number: Int
     var startTime: Date?

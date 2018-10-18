@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct OrderHistory {
+struct OrderHistory: Codable {
     var order: Order
     var date: Date
 }
