@@ -771,6 +771,54 @@
             </objects>
             <point key="canvasLocation" x="2757.5999999999999" y="696.7016491754124"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="ECr-VX-APg">
+            <objects>
+                <viewController id="UfS-FY-ONH" customClass="SettingsViewController" customModule="AllInOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yoX-Fe-mW8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sand" translatesAutoresizingMaskIntoConstraints="NO" id="cjL-c3-RQ3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vIV-9P-iSi">
+                                <rect key="frame" x="151" y="44" width="73" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LU8-bO-tbp">
+                                <rect key="frame" x="16" y="118" width="76" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="LAV-1G-Xrh">
+                                <rect key="frame" x="177" y="114" width="169" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="English"/>
+                                    <segment title="Vietnamese"/>
+                                </segments>
+                                <connections>
+                                    <action selector="actionChangeLanguage:" destination="UfS-FY-ONH" eventType="valueChanged" id="NBV-eh-m0K"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="icv-dj-xzo"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="kOW-vN-ONc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zG4-vZ-ypP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-877.60000000000002" y="776.76161919040487"/>
+        </scene>
         <!--My Orders-->
         <scene sceneID="dmW-dI-g75">
             <objects>
@@ -944,6 +992,7 @@
                         <segue destination="Xbb-Bi-DAo" kind="relationship" relationship="viewControllers" id="OuO-WD-bWg"/>
                         <segue destination="Vfq-hm-aeq" kind="relationship" relationship="viewControllers" id="X0m-pl-lLc"/>
                         <segue destination="KkX-oO-oZF" kind="relationship" relationship="viewControllers" id="i7K-RF-91J"/>
+                        <segue destination="UfS-FY-ONH" kind="relationship" relationship="viewControllers" id="hSJ-PS-lVZ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QPj-bN-wMY" userLabel="First Responder" sceneMemberID="firstResponder"/>

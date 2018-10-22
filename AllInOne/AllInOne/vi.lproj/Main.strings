@@ -1,0 +1,156 @@
+
+/* Class = "UILabel"; text = "$20"; ObjectID = "0wy-u9-caF"; */
+"0wy-u9-caF.text" = "$20";
+
+/* Class = "UITabBarItem"; title = "My Orders"; ObjectID = "1Cs-d6-WRk"; */
+"1Cs-d6-WRk.title" = "My Orders";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "3bQ-Rw-ygD"; */
+"3bQ-Rw-ygD.text" = "10";
+
+/* Class = "UILabel"; text = "Please select broken item"; ObjectID = "3zK-F0-8Ir"; */
+"3zK-F0-8Ir.text" = "Vui lòng chọn đồ dùng bị hỏng";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "4Hq-Nv-bty"; */
+"4Hq-Nv-bty.normalTitle" = "Hoàn tất";
+
+/* Class = "UILabel"; text = "REPARING"; ObjectID = "4ZD-p3-pYp"; */
+"4ZD-p3-pYp.text" = "SỬA CHỮA";
+
+/* Class = "UILabel"; text = "Your orders"; ObjectID = "5XC-sx-piQ"; */
+"5XC-sx-piQ.text" = "Đơn đặt hàng";
+
+/* Class = "UIButton"; normalTitle = "Check In"; ObjectID = "6kE-OG-dW0"; */
+"6kE-OG-dW0.normalTitle" = "Check In";
+
+/* Class = "UILabel"; text = "21/09/2018"; ObjectID = "EcC-Gj-9gd"; */
+"EcC-Gj-9gd.text" = "21/09/2018";
+
+/* Class = "UILabel"; text = "Ga chien nuoc mam"; ObjectID = "I8B-jj-5gG"; */
+"I8B-jj-5gG.text" = "Ga chien nuoc mam";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ig4-dm-CxK"; */
+"Ig4-dm-CxK.text" = "Label";
+
+/* Class = "UILabel"; text = "Welcome Mr. Binh to Sandy Resort"; ObjectID = "L60-dc-vzF"; */
+"L60-dc-vzF.text" = "Chào mừng anh Bình đến với Sandy Resort";
+
+/* Class = "UISegmentedControl"; LAV-1G-Xrh.segmentTitles[0] = "English"; ObjectID = "LAV-1G-Xrh"; */
+"LAV-1G-Xrh.segmentTitles[0]" = "Tiếng Anh";
+
+/* Class = "UISegmentedControl"; LAV-1G-Xrh.segmentTitles[1] = "Vietnamese"; ObjectID = "LAV-1G-Xrh"; */
+"LAV-1G-Xrh.segmentTitles[1]" = "Tiếng Việt";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "LU8-bO-tbp"; */
+"LU8-bO-tbp.text" = "Language";
+
+/* Class = "UILabel"; text = "My Cart"; ObjectID = "NLK-8A-lq1"; */
+"NLK-8A-lq1.text" = "My Cart";
+
+/* Class = "UILabel"; text = "Let us help you"; ObjectID = "NqF-0v-aay"; */
+"NqF-0v-aay.text" = "Let us help you";
+
+/* Class = "UILabel"; text = "Start  time:"; ObjectID = "O1e-FT-eLy"; */
+"O1e-FT-eLy.text" = "Start  time:";
+
+/* Class = "UILabel"; text = "20 foods for today"; ObjectID = "Pq4-l3-YPF"; */
+"Pq4-l3-YPF.text" = "20 foods for today";
+
+/* Class = "UITabBarItem"; title = "Repair"; ObjectID = "QRT-vx-YwG"; */
+"QRT-vx-YwG.title" = "Repair";
+
+/* Class = "UILabel"; text = "Quantity:"; ObjectID = "RL4-JH-hNa"; */
+"RL4-JH-hNa.text" = "Quantity:";
+
+/* Class = "UIButton"; normalTitle = "Add to Cart"; ObjectID = "Sns-sX-OPf"; */
+"Sns-sX-OPf.normalTitle" = "Add to Cart";
+
+/* Class = "UILabel"; text = "220 Calories "; ObjectID = "XBZ-ky-acX"; */
+"XBZ-ky-acX.text" = "220 Calories ";
+
+/* Class = "UIViewController"; title = "Cart"; ObjectID = "Xbb-Bi-DAo"; */
+"Xbb-Bi-DAo.title" = "Cart";
+
+/* Class = "UILabel"; text = "Total $0"; ObjectID = "Xju-Bn-UKA"; */
+"Xju-Bn-UKA.text" = "Total $0";
+
+/* Class = "UITabBarItem"; title = "My Cart"; ObjectID = "eE6-te-5To"; */
+"eE6-te-5To.title" = "My Cart";
+
+/* Class = "UIButton"; normalTitle = "Place Order"; ObjectID = "eLM-hp-c17"; */
+"eLM-hp-c17.normalTitle" = "Place Order";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "gcE-6b-MYV"; */
+"gcE-6b-MYV.text" = "1";
+
+/* Class = "UILabel"; text = "Chicken Fried Rice"; ObjectID = "hce-Ia-lHx"; */
+"hce-Ia-lHx.text" = "Chicken Fried Rice";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "hkT-zn-cai"; */
+"hkT-zn-cai.text" = "10";
+
+/* Class = "UITabBarItem"; title = "Services"; ObjectID = "i7u-8z-zFh"; */
+"i7u-8z-zFh.title" = "Services";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "kOW-vN-ONc"; */
+"kOW-vN-ONc.title" = "Item";
+
+/* Class = "UILabel"; text = "Foods"; ObjectID = "krm-bd-4i8"; */
+"krm-bd-4i8.text" = "Foods";
+
+/* Class = "UILabel"; text = "Hello, Mr. Binh"; ObjectID = "ll9-WH-5wR"; */
+"ll9-WH-5wR.text" = "Hello, Mr. Binh";
+
+/* Class = "UILabel"; text = "$ 12 / hour"; ObjectID = "ly8-cq-yee"; */
+"ly8-cq-yee.text" = "$ 12 / hour";
+
+/* Class = "UIButton"; normalTitle = "Call us"; ObjectID = "mHP-mu-hVy"; */
+"mHP-mu-hVy.normalTitle" = "Call us";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "o5F-IU-oZT"; */
+"o5F-IU-oZT.text" = "Label";
+
+/* Class = "UILabel"; text = "Your comment will help us support you better"; ObjectID = "oSi-Io-sFe"; */
+"oSi-Io-sFe.text" = "Your comment will help us support you better";
+
+/* Class = "UILabel"; text = "Total $0"; ObjectID = "oYM-og-u7A"; */
+"oYM-og-u7A.text" = "Total $0";
+
+/* Class = "UIButton"; normalTitle = "Place Order"; ObjectID = "ozL-fZ-9gq"; */
+"ozL-fZ-9gq.normalTitle" = "Place Order";
+
+/* Class = "UILabel"; text = "touch to select"; ObjectID = "p3R-Xl-B72"; */
+"p3R-Xl-B72.text" = "touch to select";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "qHR-fQ-UMq"; */
+"qHR-fQ-UMq.text" = "1";
+
+/* Class = "UILabel"; text = "Total: $ 20"; ObjectID = "s1X-ux-fEq"; */
+"s1X-ux-fEq.text" = "Total: $ 20";
+
+/* Class = "UITabBarItem"; title = "Checkin"; ObjectID = "saI-Fh-vm7"; */
+"saI-Fh-vm7.title" = "Checkin";
+
+/* Class = "UIButton"; normalTitle = "Call us"; ObjectID = "sxu-Qz-lWy"; */
+"sxu-Qz-lWy.normalTitle" = "Call us";
+
+/* Class = "UILabel"; text = "$ 12"; ObjectID = "u83-HF-gxI"; */
+"u83-HF-gxI.text" = "$ 12";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "uhv-b8-Wbl"; */
+"uhv-b8-Wbl.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "vIV-9P-iSi"; */
+"vIV-9P-iSi.text" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Have a question? Email us"; ObjectID = "vdi-ng-jyM"; */
+"vdi-ng-jyM.normalTitle" = "Have a question? Email us";
+
+/* Class = "UITabBarItem"; title = "Help"; ObjectID = "wNv-za-CWM"; */
+"wNv-za-CWM.title" = "Help";
+
+/* Class = "UILabel"; text = "Bun bo Hue"; ObjectID = "zfe-65-WU8"; */
+"zfe-65-WU8.text" = "Bun bo Hue";
+
+/* Class = "UILabel"; text = "Enter your checkin code"; ObjectID = "znJ-VY-36V"; */
+"znJ-VY-36V.text" = "Enter your checkin code";

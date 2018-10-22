@@ -9,6 +9,7 @@ target 'AllInOne' do
   pod 'Toast-Swift', '~> 4.0.0'
   pod 'DropDown', '~> 2.3.3'
   pod 'DateTimePicker'
+  pod 'BetterSegmentedControl', '~> 1.0'
 
   target 'AllInOneTests' do
     inherit! :search_paths

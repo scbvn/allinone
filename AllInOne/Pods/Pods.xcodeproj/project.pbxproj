@@ -8,146 +8,174 @@
 
 /* Begin PBXBuildFile section */
 		068F3021D17E0B4834A5F0BCFB365F68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
-		18D38A1FEDC8E8A2F8FA0C923C9BD9E2 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 981A5F8A5C27C53270CD02E0E6CB3B2E /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		240A0F0EFC70E12766B3BDF2370CB6E7 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105AE0E0B3341AF95C77C3DBAD0AD1BF /* DPDUIView+Extension.swift */; };
-		2BFB22EC64D9BC7FC1DE0D77544DFEFA /* DateTimePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3A81AB6F857BD96C73B3FED4B3B50B /* DateTimePicker-dummy.m */; };
-		2CE99C85493E9E101E81AA09356C37AE /* FullDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D725EDF9B77B5BD6014480D95FDA615A /* FullDateCollectionViewCell.swift */; };
-		2F19C337BE3EB1BD2924455FEBEBEC1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
-		49D9535D4C5F930D4030341ED2F96A35 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C2EA5E724C4043B6688418344A24E /* DPDKeyboardListener.swift */; };
+		240A0F0EFC70E12766B3BDF2370CB6E7 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B40AFC0CAB798BCF12C324458EEBFC /* DPDUIView+Extension.swift */; };
+		2BFB22EC64D9BC7FC1DE0D77544DFEFA /* DateTimePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 620884D01B74A0E22EC611B364072414 /* DateTimePicker-dummy.m */; };
+		2CE99C85493E9E101E81AA09356C37AE /* FullDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82820F3564225E2CD0893848A75F8D73 /* FullDateCollectionViewCell.swift */; };
+		3B3C254362177AE1EB8A95E07E1924AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		49D9535D4C5F930D4030341ED2F96A35 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4813A468677E09C6657061ECD9F8E74 /* DPDKeyboardListener.swift */; };
 		4B4C1EC286FB5FEF6D6D53D54ACF6141 /* Pods-AllInOneTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8C361681E7938D0EFEE77657FB76CE /* Pods-AllInOneTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D752ACB444DC5118FF50E28F7601975 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */; };
-		52B978B931479C53448156E7369E2224 /* DateTimePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 682707FEF3B7CFB61B9EEC4A06F3481A /* DateTimePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52B978B931479C53448156E7369E2224 /* DateTimePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06765D057958AF35A3CE533A25B80770 /* DateTimePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		565A047C7F5CEBD126F60E0EAE200380 /* Pods-AllInOneUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2AE178D8AD9DF9451A8CB86698DE3 /* Pods-AllInOneUITests-dummy.m */; };
-		573FA8A312D833DA2F1FF734419EE989 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C3E358940D265D0F4B2698A8A17B3 /* DropDown-dummy.m */; };
+		573FA8A312D833DA2F1FF734419EE989 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E91842C8BD53E39915D5DDD03A8AB /* DropDown-dummy.m */; };
+		5B7744B7D8027E8A9F2E890FE28A795C /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D57C3790C52FAC56006275DAC9BFE824 /* Toast-Swift-dummy.m */; };
 		5C7C25F95681B9D5EBDB138D950EDDE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
 		622ADF071627C82E6C49B9D54D1011B3 /* Pods-AllInOneUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0971AEAB6D8D9FF501DA05E9FBD9BB /* Pods-AllInOneUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68578B891384976FDEEF5D1C097645A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */; };
-		6E67CABADF1BD0C7F52D4C01ECC57F0D /* Pods-AllInOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8813744BE7B26A534D91EA4289D5424B /* Pods-AllInOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89A682C4E3E4B1B55085832D4CFB4ADA /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E87F81F6B5DE579FBA77A0B770DB8B7 /* DropDownCell.swift */; };
-		90560FC18F376B763E7C11AF87DFFBD2 /* Pods-AllInOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 324C8A8FD18764153B866DDB50F8B0F7 /* Pods-AllInOne-dummy.m */; };
-		94A7DFD684BC8AE0EEF13BA17610C7C6 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED266D7C20C38F66C2427C72A21679 /* DropDown.swift */; };
+		6B1040BB0EE90BBAFC9668EFF1F64C73 /* Pods-AllInOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 324C8A8FD18764153B866DDB50F8B0F7 /* Pods-AllInOne-dummy.m */; };
+		70A1C11CE385827237CB928FB02D505D /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E84E6DABD0AD4B4E28DACC5683704 /* Options.swift */; };
+		718C659B2EC47611339EDC2E3FB7429A /* LabelSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E2DFF664210F0DC017F67F09AB0F43 /* LabelSegment.swift */; };
+		79FE080632FCF8648D63329938C6D0A2 /* BetterSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0314AFB557EC80D420A9562B885242C /* BetterSegmentedControl-dummy.m */; };
+		7CC98E37AEFD87C0F1A299876F85F794 /* BetterSegmentedControlSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78ACBD6B3B9E37AD41A0736BBB7A7B /* BetterSegmentedControlSegment.swift */; };
+		82764F2BA4E2E6629B61845485A72AAF /* IconSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D854EC4645D6F7DBAAFF3A308EE13 /* IconSegment.swift */; };
+		89A682C4E3E4B1B55085832D4CFB4ADA /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58E2E5D39D1DE3FFE46AAF3B0D34927 /* DropDownCell.swift */; };
+		94A7DFD684BC8AE0EEF13BA17610C7C6 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0E514ED6DA4005E4392DB43B156BC3 /* DropDown.swift */; };
 		97CDBDE4548E90530B3EAD0057A0429E /* Pods-AllInOneTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 874F5336C258307B34AE1290D5904EC3 /* Pods-AllInOneTests-dummy.m */; };
 		A75D24A6657D1A233A03E725FA933230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
-		A8CE2D7D3923C8FED7D31135F4618876 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF156D439A2A08548E94BDEC19B3112 /* Toast-Swift-dummy.m */; };
+		A80C332F87CFE113249DE3A03013D5EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
 		A90B9E72AAE1D8F1D51A02C1D1C1FDC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
-		AC38DECFA01FAD61670A2E904AC09709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
-		B59E75CB029C100A622924064730EE7A /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1452C48C933A8E6A8236690180D55A3 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3851EB5463F8F3669AC09D6B1376A88 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582E09E3C731A1E70D2582E257401A49 /* DropDown+Appearance.swift */; };
-		D2CAE54BBA85A465958CD906A0DD54A2 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BE079FA2D2A0A889D318E66B1184CC /* Toast.swift */; };
-		D873BB638C62062D1BC3A70E43C43B04 /* StepCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9668D3B636DB716A5A5572341B016638 /* StepCollectionViewFlowLayout.swift */; };
-		D9DCC833AEACEAC21F569BEBB9170D86 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478F3321C954B93267B7EB52927BBE1B /* DPDConstants.swift */; };
-		F19A8DB8935F113A52D968AA20B745A4 /* DateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17C5F1EB8D5EE4CA6FA09312C5B9D9 /* DateTimePicker.swift */; };
-		F59E263A4A3E2852BB11DEEF0793BF3B /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239F6968E9C874982DF9A48696FCABF /* DateCollectionViewCell.swift */; };
-		FF168F05DFAE21A2FFF0BD61B869E2BB /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054F96417FF0B7F6E83EC94919EC1A8C /* DropDownCell.xib */; };
+		B59E75CB029C100A622924064730EE7A /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BB882338930B24D8160C9F07F9A2CC /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17AF26DE7D68D1C97D838FC7AA55B79 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AEC4920E87552393FD2D30C110C343 /* Toast.swift */; };
+		C1C8EE7C82E9DB1E94B949827D4866E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */; };
+		C3851EB5463F8F3669AC09D6B1376A88 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDFE90245BFBAED582E76E2E248C73 /* DropDown+Appearance.swift */; };
+		CE36859DED5766842779A1524E86F07E /* Pods-AllInOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8813744BE7B26A534D91EA4289D5424B /* Pods-AllInOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7C5783AF97C320399EEE52888F88616 /* BetterSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908323730A3B23CA3C8DD1FD8FEC8BBC /* BetterSegmentedControl.swift */; };
+		D873BB638C62062D1BC3A70E43C43B04 /* StepCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019F6ADDF1A5D4CF80CF09368F9F041 /* StepCollectionViewFlowLayout.swift */; };
+		D9DCC833AEACEAC21F569BEBB9170D86 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D6EBCA5CD8EDAE53AC4B8C5998F22 /* DPDConstants.swift */; };
+		DE121C016F34D3AF5473B1B485963E59 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C31CD55F40EA31E2FF3E04891630A75 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDC0AB291410634070FBCB1868703B02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */; };
+		F19A8DB8935F113A52D968AA20B745A4 /* DateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C54CA687E13035CF6F526561EEA888B /* DateTimePicker.swift */; };
+		F26E5DA8D09D7014A4D6E82784042F24 /* BetterSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 759100B50C5B17C198F86F0C8BD51D38 /* BetterSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F59E263A4A3E2852BB11DEEF0793BF3B /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB3D537714461006BF312E06CB477C9 /* DateCollectionViewCell.swift */; };
+		FCBD1ADC3D708B513DDA6471270776C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		FF168F05DFAE21A2FFF0BD61B869E2BB /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655188403A812F6FEE68B42E486ECD96 /* DropDownCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14D0EB704757C6484B941CF80D0B0B26 /* PBXContainerItemProxy */ = {
+		0564125A97B41BD1DC5709D06E30C94F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD1ECC3979ED6D745803FF751221D70C;
-			remoteInfo = DropDown;
+			remoteGlobalIDString = 5EFD6506021DC82E2D5D609D3406A440;
+			remoteInfo = BetterSegmentedControl;
 		};
 		3E34E7323FF2156897A5F05498942F27 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BA9BB7CD4DB137123BB8A280B24A4008;
+			remoteGlobalIDString = 2A5F16AD4671B56BAE666A25E7C522BF;
 			remoteInfo = "Pods-AllInOne";
 		};
-		768C65E151273AB7C261DA6D4F0E4ACC /* PBXContainerItemProxy */ = {
+		8DDEC3222BF0C6597D78DAE82B510F50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 638B27896D124D70C96EBDE813EAE42D;
+			remoteGlobalIDString = A616AA369CC54C36F67DF33ED0B10741;
 			remoteInfo = "Toast-Swift";
 		};
-		A4AEC3A81EDF5E4CC677D30EB5A9CA02 /* PBXContainerItemProxy */ = {
+		951D20E1236FB380B6D505A495F8652B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 115C0F27C5F56A278792157F449C08D2;
 			remoteInfo = DateTimePicker;
 		};
+		CF09B737FCA70DA6279236E95EF84412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD1ECC3979ED6D745803FF751221D70C;
+			remoteInfo = DropDown;
+		};
 		D3AB6572E3B84CC5AE2A62AC17518336 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BA9BB7CD4DB137123BB8A280B24A4008;
+			remoteGlobalIDString = 2A5F16AD4671B56BAE666A25E7C522BF;
 			remoteInfo = "Pods-AllInOne";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E15DEF7837C61FE702236480B03332 /* Pods_AllInOneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllInOneTests.framework; path = "Pods-AllInOneTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		020FA73138B2E6AF1D1F178215A0D31C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		054F96417FF0B7F6E83EC94919EC1A8C /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		06765D057958AF35A3CE533A25B80770 /* DateTimePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTimePicker-umbrella.h"; sourceTree = "<group>"; };
+		09166260B58140317AD789CFDC34F303 /* DateTimePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DateTimePicker.modulemap; sourceTree = "<group>"; };
 		0E8C361681E7938D0EFEE77657FB76CE /* Pods-AllInOneTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AllInOneTests-umbrella.h"; sourceTree = "<group>"; };
-		105AE0E0B3341AF95C77C3DBAD0AD1BF /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
-		10CA97656309F1B11B73EF93214A31F8 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17EBF8A5D43AF36A43710831D6BE407D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19109AD567DFE5280EB76EEC2E4A2022 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F82CB5ECEA013088606C329631D944C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C54CA687E13035CF6F526561EEA888B /* DateTimePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTimePicker.swift; path = Source/DateTimePicker.swift; sourceTree = "<group>"; };
+		1D78ACBD6B3B9E37AD41A0736BBB7A7B /* BetterSegmentedControlSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BetterSegmentedControlSegment.swift; path = Pod/Classes/BetterSegmentedControlSegment.swift; sourceTree = "<group>"; };
+		1EB3D537714461006BF312E06CB477C9 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateCollectionViewCell.swift; path = Source/DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		2019F6ADDF1A5D4CF80CF09368F9F041 /* StepCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepCollectionViewFlowLayout.swift; path = Source/StepCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		22493E48F408D14F69668E9FC5C759C7 /* BetterSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BetterSegmentedControl.framework; path = BetterSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F2AE178D8AD9DF9451A8CB86698DE3 /* Pods-AllInOneUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AllInOneUITests-dummy.m"; sourceTree = "<group>"; };
-		268D1740C9255826734A0B02AC8C0F36 /* DateTimePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DateTimePicker.framework; path = DateTimePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		307E91842C8BD53E39915D5DDD03A8AB /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
 		324C8A8FD18764153B866DDB50F8B0F7 /* Pods-AllInOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AllInOne-dummy.m"; sourceTree = "<group>"; };
-		32ADCEE3DD702384B54733FB88D92614 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
-		3A17C5F1EB8D5EE4CA6FA09312C5B9D9 /* DateTimePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTimePicker.swift; path = Source/DateTimePicker.swift; sourceTree = "<group>"; };
-		3A54957CF7454859B3DBA0B3DEF299A4 /* DateTimePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DateTimePicker.modulemap; sourceTree = "<group>"; };
 		3C0390396F8471B361D91F72A0459708 /* Pods-AllInOne-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllInOne-acknowledgements.plist"; sourceTree = "<group>"; };
 		3D7F2F16FF116F639EBD793C622D2E5B /* Pods-AllInOneTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllInOneTests-frameworks.sh"; sourceTree = "<group>"; };
-		478F3321C954B93267B7EB52927BBE1B /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
 		481DA2BF626B54FB3975CF00B7F02DD7 /* Pods-AllInOne-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllInOne-frameworks.sh"; sourceTree = "<group>"; };
-		4E8C3E358940D265D0F4B2698A8A17B3 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
-		4FD3F563735B8E4FCB409AB8293FB69E /* Pods_AllInOneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllInOneUITests.framework; path = "Pods-AllInOneUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECFB6686AA49CA1A1D670172B7FEAF9 /* DateTimePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DateTimePicker.xcconfig; sourceTree = "<group>"; };
+		4F0E514ED6DA4005E4392DB43B156BC3 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
 		523308B729B9226B53BEAA11799E2AA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5297E84C0789163A019F9BE69D249730 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53F0A1F765B1EAE3986735080CAAB1F0 /* Pods-AllInOneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllInOneUITests.release.xcconfig"; sourceTree = "<group>"; };
-		582E09E3C731A1E70D2582E257401A49 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
 		58679F4EA3AA740AF2324B8103ED0E98 /* Pods-AllInOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllInOne.debug.xcconfig"; sourceTree = "<group>"; };
-		593DDE32DFAF96A503C8149A3514B752 /* DateTimePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DateTimePicker.xcconfig; sourceTree = "<group>"; };
-		6239F6968E9C874982DF9A48696FCABF /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateCollectionViewCell.swift; path = Source/DateCollectionViewCell.swift; sourceTree = "<group>"; };
-		64FDF9CCB9DAEF9A9C3D175EB42D6E47 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		5D26A629D22119F7BD755F14394FA364 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		5E7D854EC4645D6F7DBAAFF3A308EE13 /* IconSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IconSegment.swift; path = Pod/Classes/Segments/IconSegment.swift; sourceTree = "<group>"; };
+		620884D01B74A0E22EC611B364072414 /* DateTimePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DateTimePicker-dummy.m"; sourceTree = "<group>"; };
+		63BB882338930B24D8160C9F07F9A2CC /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		655188403A812F6FEE68B42E486ECD96 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
 		6553E737C58F57BD76A61ED48B878D32 /* Pods-AllInOne-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AllInOne-acknowledgements.markdown"; sourceTree = "<group>"; };
 		679D4879532EF0D2715E13C280E514E2 /* Pods-AllInOneUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllInOneUITests-resources.sh"; sourceTree = "<group>"; };
-		682707FEF3B7CFB61B9EEC4A06F3481A /* DateTimePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTimePicker-umbrella.h"; sourceTree = "<group>"; };
-		68BE079FA2D2A0A889D318E66B1184CC /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
-		6E87F81F6B5DE579FBA77A0B770DB8B7 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		6AE64B4C2898D0024B8DF9EC056D4BD5 /* DateTimePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTimePicker-prefix.pch"; sourceTree = "<group>"; };
+		6BFA499F8E00BC6F0EDD059CE9395AC0 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0D6CD14C51C73B23EBBA7D6C37C628 /* Pods-AllInOneUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AllInOneUITests.modulemap"; sourceTree = "<group>"; };
 		71FEF26283F76D337298340664332A67 /* Pods-AllInOneUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AllInOneUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		75398CE0972DB35FBAA9660400712353 /* Pods-AllInOneUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllInOneUITests-frameworks.sh"; sourceTree = "<group>"; };
+		759100B50C5B17C198F86F0C8BD51D38 /* BetterSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		79E2DFF664210F0DC017F67F09AB0F43 /* LabelSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelSegment.swift; path = Pod/Classes/Segments/LabelSegment.swift; sourceTree = "<group>"; };
 		7F971D5ACAFDA9F2A4327E21F6C27E87 /* Pods-AllInOneTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AllInOneTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7FF156D439A2A08548E94BDEC19B3112 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
-		82ED266D7C20C38F66C2427C72A21679 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		82820F3564225E2CD0893848A75F8D73 /* FullDateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FullDateCollectionViewCell.swift; path = Source/FullDateCollectionViewCell.swift; sourceTree = "<group>"; };
+		8741E2765984DDA52210A2F4ED3CBC3E /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
 		874F5336C258307B34AE1290D5904EC3 /* Pods-AllInOneTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AllInOneTests-dummy.m"; sourceTree = "<group>"; };
 		8813744BE7B26A534D91EA4289D5424B /* Pods-AllInOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AllInOne-umbrella.h"; sourceTree = "<group>"; };
-		8C6A81E352E857267B01BDA9E597C4D5 /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
+		8CDA4E47BD79DBD94B10C12F26F85867 /* Pods_AllInOneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllInOneUITests.framework; path = "Pods-AllInOneUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		908323730A3B23CA3C8DD1FD8FEC8BBC /* BetterSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BetterSegmentedControl.swift; path = Pod/Classes/BetterSegmentedControl.swift; sourceTree = "<group>"; };
 		90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9668D3B636DB716A5A5572341B016638 /* StepCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepCollectionViewFlowLayout.swift; path = Source/StepCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
-		981A5F8A5C27C53270CD02E0E6CB3B2E /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
-		A1F57D325F73E13E3F584F729AB0A779 /* DateTimePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTimePicker-prefix.pch"; sourceTree = "<group>"; };
+		9A05B3E2D2DF8C0CE0F65E52B50FC59C /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		9C31CD55F40EA31E2FF3E04891630A75 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		9D376B523FEB4F887D027DD9AC48D234 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0314AFB557EC80D420A9562B885242C /* BetterSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BetterSegmentedControl-dummy.m"; sourceTree = "<group>"; };
 		A38CAD62A608B8140F7C47E80F04DC6A /* Pods-AllInOneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllInOneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA4A85122784439135D1F5F37A3C29FD /* Pods-AllInOneTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllInOneTests-resources.sh"; sourceTree = "<group>"; };
+		AA5D6EBCA5CD8EDAE53AC4B8C5998F22 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
 		AAD49E21F2F0B6A8A06BAB89164CB02A /* Pods-AllInOneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllInOneTests.release.xcconfig"; sourceTree = "<group>"; };
-		B12C2D6AC944610DF7808B7FA8E7EA61 /* Pods_AllInOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllInOne.framework; path = "Pods-AllInOne.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC2C8C4519C267707F20FCA65DEE329A /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
-		C19593C83C1895D323515541D147E4E9 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6FC5CE00A53A7EF07CCFF369D843F25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4813A468677E09C6657061ECD9F8E74 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		B7B40AFC0CAB798BCF12C324458EEBFC /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		BB2FBE2E8A84E0F2E11FA62CEB3F197D /* DateTimePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DateTimePicker.framework; path = DateTimePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAD0408EF7623138D38F7666F847951 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C015684F98A83F51A1380F81E92883A0 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		C449BFBDE1ECAEEBCE787E602D5C8018 /* Pods_AllInOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllInOne.framework; path = "Pods-AllInOne.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C776365537932DD1673D1EE9F21035C9 /* Pods-AllInOneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllInOneUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CF3A81AB6F857BD96C73B3FED4B3B50B /* DateTimePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DateTimePicker-dummy.m"; sourceTree = "<group>"; };
+		CBB0993BBB77625B7763563DFCF0F662 /* BetterSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BetterSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		CBE41B6BFCA005B044EDEB24305A76A5 /* BetterSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		D0EDFE90245BFBAED582E76E2E248C73 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		D4AFCC0CAD080874FFA63A5971737851 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
 		D525E228FAEEA87AC9BA30BADD5F628C /* Pods-AllInOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllInOne.release.xcconfig"; sourceTree = "<group>"; };
+		D57C3790C52FAC56006275DAC9BFE824 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		D58E2E5D39D1DE3FFE46AAF3B0D34927 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
 		D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D70E8888C70716A361519AA771A113C9 /* Pods-AllInOneTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AllInOneTests.modulemap"; sourceTree = "<group>"; };
-		D725EDF9B77B5BD6014480D95FDA615A /* FullDateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FullDateCollectionViewCell.swift; path = Source/FullDateCollectionViewCell.swift; sourceTree = "<group>"; };
+		D962DF5C1A39A2CE218D80A56ADB8386 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
 		DA0971AEAB6D8D9FF501DA05E9FBD9BB /* Pods-AllInOneUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AllInOneUITests-umbrella.h"; sourceTree = "<group>"; };
-		DD9C2EA5E724C4043B6688418344A24E /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
 		DFE0EE35BAAC24EE9EC5127E4DDD593B /* Pods-AllInOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AllInOne.modulemap"; sourceTree = "<group>"; };
-		E38AAA88CA12DFA939915E32EDFF3DE3 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
-		E5879238FB3AFFB8EE5DC8218B4DCB08 /* Pods_AllInOneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllInOneTests.framework; path = "Pods-AllInOneTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AEC4920E87552393FD2D30C110C343 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
 		E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EC40597DA52C14F8461022C711C04E81 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
-		F1452C48C933A8E6A8236690180D55A3 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		F2E000A550234250C08C5200F817341C /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F426A3E0AD2851507E1747F5D240A8FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F64C806BC5DFB61BA0184B974F90604E /* Pods-AllInOneUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllInOneUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F68DF5A8ACF003C1413BB211276071B1 /* BetterSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BetterSegmentedControl.modulemap; sourceTree = "<group>"; };
+		F68E84E6DABD0AD4B4E28DACC5683704 /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Pod/Classes/Options.swift; sourceTree = "<group>"; };
 		F9AF7B78AAA106360F2AA3D577F50E20 /* Pods-AllInOne-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllInOne-resources.sh"; sourceTree = "<group>"; };
 		FE16614B014EF37A45F7E864D6E69D35 /* Pods-AllInOneTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllInOneTests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,21 +189,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D323F069DAB69B7EA2132E2AF74DFFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBD1ADC3D708B513DDA6471270776C6 /* Foundation.framework in Frameworks */,
+				EDC0AB291410634070FBCB1868703B02 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DDCC45EE72421D1A57F83FE4491E9E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				068F3021D17E0B4834A5F0BCFB365F68 /* Foundation.framework in Frameworks */,
 				68578B891384976FDEEF5D1C097645A5 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A34B571773C5BCDF29850BDDDC6962AE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC38DECFA01FAD61670A2E904AC09709 /* Foundation.framework in Frameworks */,
-				4D752ACB444DC5118FF50E28F7601975 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +215,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4C6502D2E6B94F41246F76445408F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80C332F87CFE113249DE3A03013D5EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDF3CACF3A40F9FCF16ABE05E906A8BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -195,38 +231,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC29E2E202DC09120AC40358D7369D33 /* Frameworks */ = {
+		FF3677745DAEF7F9AF32DB4B39D13DF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F19C337BE3EB1BD2924455FEBEBEC1D /* Foundation.framework in Frameworks */,
+				3B3C254362177AE1EB8A95E07E1924AD /* Foundation.framework in Frameworks */,
+				C1C8EE7C82E9DB1E94B949827D4866E4 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01567BC5BE1FC0F30DF6A3A026D62E4E /* Toast-Swift */ = {
+		00AC00993D03E87481BC3DC7C9426BB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68BE079FA2D2A0A889D318E66B1184CC /* Toast.swift */,
-				E4F8CF549054CC1470CC558240EC7A78 /* Support Files */,
+				22493E48F408D14F69668E9FC5C759C7 /* BetterSegmentedControl.framework */,
+				BB2FBE2E8A84E0F2E11FA62CEB3F197D /* DateTimePicker.framework */,
+				6BFA499F8E00BC6F0EDD059CE9395AC0 /* DropDown.framework */,
+				C449BFBDE1ECAEEBCE787E602D5C8018 /* Pods_AllInOne.framework */,
+				01E15DEF7837C61FE702236480B03332 /* Pods_AllInOneTests.framework */,
+				8CDA4E47BD79DBD94B10C12F26F85867 /* Pods_AllInOneUITests.framework */,
+				F2E000A550234250C08C5200F817341C /* Toast_Swift.framework */,
 			);
-			name = "Toast-Swift";
-			path = "Toast-Swift";
-			sourceTree = "<group>";
-		};
-		09878CA0D8A356E1160C5259231C88FD /* DateTimePicker */ = {
-			isa = PBXGroup;
-			children = (
-				6239F6968E9C874982DF9A48696FCABF /* DateCollectionViewCell.swift */,
-				3A17C5F1EB8D5EE4CA6FA09312C5B9D9 /* DateTimePicker.swift */,
-				D725EDF9B77B5BD6014480D95FDA615A /* FullDateCollectionViewCell.swift */,
-				9668D3B636DB716A5A5572341B016638 /* StepCollectionViewFlowLayout.swift */,
-				845A628833C88FDFFF8B89B505352335 /* Support Files */,
-			);
-			name = DateTimePicker;
-			path = DateTimePicker;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
@@ -235,6 +263,46 @@
 				9EBF83A17FAAD0333B507DD3E1099181 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1542B8B3284F0AD2919E713B31295CB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F68DF5A8ACF003C1413BB211276071B1 /* BetterSegmentedControl.modulemap */,
+				CBB0993BBB77625B7763563DFCF0F662 /* BetterSegmentedControl.xcconfig */,
+				A0314AFB557EC80D420A9562B885242C /* BetterSegmentedControl-dummy.m */,
+				CBE41B6BFCA005B044EDEB24305A76A5 /* BetterSegmentedControl-prefix.pch */,
+				759100B50C5B17C198F86F0C8BD51D38 /* BetterSegmentedControl-umbrella.h */,
+				BFAD0408EF7623138D38F7666F847951 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BetterSegmentedControl";
+			sourceTree = "<group>";
+		};
+		2FED375C74CCEAB1593DCFA8F99470DC /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E1AEC4920E87552393FD2D30C110C343 /* Toast.swift */,
+				946139678454E4C239B50ED9FABF2463 /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		39CD368BE3CF9DF69F76BE01F5D7AFA5 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				AA5D6EBCA5CD8EDAE53AC4B8C5998F22 /* DPDConstants.swift */,
+				B4813A468677E09C6657061ECD9F8E74 /* DPDKeyboardListener.swift */,
+				B7B40AFC0CAB798BCF12C324458EEBFC /* DPDUIView+Extension.swift */,
+				4F0E514ED6DA4005E4392DB43B156BC3 /* DropDown.swift */,
+				D0EDFE90245BFBAED582E76E2E248C73 /* DropDown+Appearance.swift */,
+				D58E2E5D39D1DE3FFE46AAF3B0D34927 /* DropDownCell.swift */,
+				CCCF5DDA98B1706E363C4C81EFB0CCA5 /* Resources */,
+				C49D08B5983D1BF88E9F5616B32D8A34 /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
 			sourceTree = "<group>";
 		};
 		4806D5F13FC03455CE7C6FC7ED3CD1D7 /* Pods-AllInOne */ = {
@@ -265,29 +333,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		59BED1F6B8FAC082BAA16FE63307DB73 /* BetterSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				908323730A3B23CA3C8DD1FD8FEC8BBC /* BetterSegmentedControl.swift */,
+				1D78ACBD6B3B9E37AD41A0736BBB7A7B /* BetterSegmentedControlSegment.swift */,
+				5E7D854EC4645D6F7DBAAFF3A308EE13 /* IconSegment.swift */,
+				79E2DFF664210F0DC017F67F09AB0F43 /* LabelSegment.swift */,
+				F68E84E6DABD0AD4B4E28DACC5683704 /* Options.swift */,
+				1542B8B3284F0AD2919E713B31295CB3 /* Support Files */,
+			);
+			name = BetterSegmentedControl;
+			path = BetterSegmentedControl;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				E98871CF34EC6513A34E0B7F7C25485B /* Pods */,
-				B3A63352D897B6936E71D32A2CB3AE85 /* Products */,
+				EE64DD2A69879BBCC7A5215A0BF4FC82 /* Pods */,
+				00AC00993D03E87481BC3DC7C9426BB5 /* Products */,
 				57CDEAA048B1A277F24751A54724186E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		845A628833C88FDFFF8B89B505352335 /* Support Files */ = {
+		946139678454E4C239B50ED9FABF2463 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3A54957CF7454859B3DBA0B3DEF299A4 /* DateTimePicker.modulemap */,
-				593DDE32DFAF96A503C8149A3514B752 /* DateTimePicker.xcconfig */,
-				CF3A81AB6F857BD96C73B3FED4B3B50B /* DateTimePicker-dummy.m */,
-				A1F57D325F73E13E3F584F729AB0A779 /* DateTimePicker-prefix.pch */,
-				682707FEF3B7CFB61B9EEC4A06F3481A /* DateTimePicker-umbrella.h */,
-				17EBF8A5D43AF36A43710831D6BE407D /* Info.plist */,
+				9D376B523FEB4F887D027DD9AC48D234 /* Info.plist */,
+				C015684F98A83F51A1380F81E92883A0 /* Toast-Swift.modulemap */,
+				9A05B3E2D2DF8C0CE0F65E52B50FC59C /* Toast-Swift.xcconfig */,
+				D57C3790C52FAC56006275DAC9BFE824 /* Toast-Swift-dummy.m */,
+				D962DF5C1A39A2CE218D80A56ADB8386 /* Toast-Swift-prefix.pch */,
+				9C31CD55F40EA31E2FF3E04891630A75 /* Toast-Swift-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DateTimePicker";
+			path = "../Target Support Files/Toast-Swift";
 			sourceTree = "<group>";
 		};
 		9EBF83A17FAAD0333B507DD3E1099181 /* iOS */ = {
@@ -300,23 +382,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B3A63352D897B6936E71D32A2CB3AE85 /* Products */ = {
+		C49D08B5983D1BF88E9F5616B32D8A34 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				268D1740C9255826734A0B02AC8C0F36 /* DateTimePicker.framework */,
-				10CA97656309F1B11B73EF93214A31F8 /* DropDown.framework */,
-				B12C2D6AC944610DF7808B7FA8E7EA61 /* Pods_AllInOne.framework */,
-				E5879238FB3AFFB8EE5DC8218B4DCB08 /* Pods_AllInOneTests.framework */,
-				4FD3F563735B8E4FCB409AB8293FB69E /* Pods_AllInOneUITests.framework */,
-				C19593C83C1895D323515541D147E4E9 /* Toast_Swift.framework */,
+				5D26A629D22119F7BD755F14394FA364 /* DropDown.modulemap */,
+				8741E2765984DDA52210A2F4ED3CBC3E /* DropDown.xcconfig */,
+				307E91842C8BD53E39915D5DDD03A8AB /* DropDown-dummy.m */,
+				D4AFCC0CAD080874FFA63A5971737851 /* DropDown-prefix.pch */,
+				63BB882338930B24D8160C9F07F9A2CC /* DropDown-umbrella.h */,
+				F426A3E0AD2851507E1747F5D240A8FA /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
 			sourceTree = "<group>";
 		};
-		C33C87B3E405A164C3A3275A3C6DA914 /* Resources */ = {
+		CCCF5DDA98B1706E363C4C81EFB0CCA5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				054F96417FF0B7F6E83EC94919EC1A8C /* DropDownCell.xib */,
+				655188403A812F6FEE68B42E486ECD96 /* DropDownCell.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -339,58 +422,42 @@
 			path = "Target Support Files/Pods-AllInOneTests";
 			sourceTree = "<group>";
 		};
-		E176B7598346E7E93095C53F1A262F55 /* Support Files */ = {
+		EDF7330EB276303B6F1A03E703EF8CAA /* DateTimePicker */ = {
 			isa = PBXGroup;
 			children = (
-				E38AAA88CA12DFA939915E32EDFF3DE3 /* DropDown.modulemap */,
-				8C6A81E352E857267B01BDA9E597C4D5 /* DropDown.xcconfig */,
-				4E8C3E358940D265D0F4B2698A8A17B3 /* DropDown-dummy.m */,
-				EC40597DA52C14F8461022C711C04E81 /* DropDown-prefix.pch */,
-				F1452C48C933A8E6A8236690180D55A3 /* DropDown-umbrella.h */,
-				C6FC5CE00A53A7EF07CCFF369D843F25 /* Info.plist */,
+				1EB3D537714461006BF312E06CB477C9 /* DateCollectionViewCell.swift */,
+				1C54CA687E13035CF6F526561EEA888B /* DateTimePicker.swift */,
+				82820F3564225E2CD0893848A75F8D73 /* FullDateCollectionViewCell.swift */,
+				2019F6ADDF1A5D4CF80CF09368F9F041 /* StepCollectionViewFlowLayout.swift */,
+				F261A62C311E7BFE1E9EDCA36C107292 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DropDown";
+			name = DateTimePicker;
+			path = DateTimePicker;
 			sourceTree = "<group>";
 		};
-		E2B9E9EDD9C103D8E94C07063096C95D /* DropDown */ = {
+		EE64DD2A69879BBCC7A5215A0BF4FC82 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				478F3321C954B93267B7EB52927BBE1B /* DPDConstants.swift */,
-				DD9C2EA5E724C4043B6688418344A24E /* DPDKeyboardListener.swift */,
-				105AE0E0B3341AF95C77C3DBAD0AD1BF /* DPDUIView+Extension.swift */,
-				82ED266D7C20C38F66C2427C72A21679 /* DropDown.swift */,
-				582E09E3C731A1E70D2582E257401A49 /* DropDown+Appearance.swift */,
-				6E87F81F6B5DE579FBA77A0B770DB8B7 /* DropDownCell.swift */,
-				C33C87B3E405A164C3A3275A3C6DA914 /* Resources */,
-				E176B7598346E7E93095C53F1A262F55 /* Support Files */,
-			);
-			name = DropDown;
-			path = DropDown;
-			sourceTree = "<group>";
-		};
-		E4F8CF549054CC1470CC558240EC7A78 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				19109AD567DFE5280EB76EEC2E4A2022 /* Info.plist */,
-				32ADCEE3DD702384B54733FB88D92614 /* Toast-Swift.modulemap */,
-				BC2C8C4519C267707F20FCA65DEE329A /* Toast-Swift.xcconfig */,
-				7FF156D439A2A08548E94BDEC19B3112 /* Toast-Swift-dummy.m */,
-				64FDF9CCB9DAEF9A9C3D175EB42D6E47 /* Toast-Swift-prefix.pch */,
-				981A5F8A5C27C53270CD02E0E6CB3B2E /* Toast-Swift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Toast-Swift";
-			sourceTree = "<group>";
-		};
-		E98871CF34EC6513A34E0B7F7C25485B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				09878CA0D8A356E1160C5259231C88FD /* DateTimePicker */,
-				E2B9E9EDD9C103D8E94C07063096C95D /* DropDown */,
-				01567BC5BE1FC0F30DF6A3A026D62E4E /* Toast-Swift */,
+				59BED1F6B8FAC082BAA16FE63307DB73 /* BetterSegmentedControl */,
+				EDF7330EB276303B6F1A03E703EF8CAA /* DateTimePicker */,
+				39CD368BE3CF9DF69F76BE01F5D7AFA5 /* DropDown */,
+				2FED375C74CCEAB1593DCFA8F99470DC /* Toast-Swift */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F261A62C311E7BFE1E9EDCA36C107292 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09166260B58140317AD789CFDC34F303 /* DateTimePicker.modulemap */,
+				4ECFB6686AA49CA1A1D670172B7FEAF9 /* DateTimePicker.xcconfig */,
+				620884D01B74A0E22EC611B364072414 /* DateTimePicker-dummy.m */,
+				6AE64B4C2898D0024B8DF9EC056D4BD5 /* DateTimePicker-prefix.pch */,
+				06765D057958AF35A3CE533A25B80770 /* DateTimePicker-umbrella.h */,
+				0F82CB5ECEA013088606C329631D944C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DateTimePicker";
 			sourceTree = "<group>";
 		};
 		FF407A4430B9F3EDDB6F97C254C9B476 /* Pods-AllInOneUITests */ = {
@@ -422,19 +489,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		640D4594D6D0A69980EC74041B38D20F /* Headers */ = {
+		56C370772CA01176D55ACC0304FB5F8E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E67CABADF1BD0C7F52D4C01ECC57F0D /* Pods-AllInOne-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A1D5876E0D70855BDD594E7638EA9D4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18D38A1FEDC8E8A2F8FA0C923C9BD9E2 /* Toast-Swift-umbrella.h in Headers */,
+				DE121C016F34D3AF5473B1B485963E59 /* Toast-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +521,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E386A8B5BB043F7A09A33C6A94B405FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE36859DED5766842779A1524E86F07E /* Pods-AllInOne-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5294C84329C5502F5777AD61F13E2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26E5DA8D09D7014A4D6E82784042F24 /* BetterSegmentedControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -481,7 +556,7 @@
 			);
 			name = "Pods-AllInOneTests";
 			productName = "Pods-AllInOneTests";
-			productReference = E5879238FB3AFFB8EE5DC8218B4DCB08 /* Pods_AllInOneTests.framework */;
+			productReference = 01E15DEF7837C61FE702236480B03332 /* Pods_AllInOneTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		115C0F27C5F56A278792157F449C08D2 /* DateTimePicker */ = {
@@ -499,17 +574,57 @@
 			);
 			name = DateTimePicker;
 			productName = DateTimePicker;
-			productReference = 268D1740C9255826734A0B02AC8C0F36 /* DateTimePicker.framework */;
+			productReference = BB2FBE2E8A84E0F2E11FA62CEB3F197D /* DateTimePicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		638B27896D124D70C96EBDE813EAE42D /* Toast-Swift */ = {
+		2A5F16AD4671B56BAE666A25E7C522BF /* Pods-AllInOne */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9783C14247984B212D92AA6554AF5338 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildConfigurationList = B2E8AA93CAAE79FBEBD90C6042258047 /* Build configuration list for PBXNativeTarget "Pods-AllInOne" */;
 			buildPhases = (
-				7A1D5876E0D70855BDD594E7638EA9D4 /* Headers */,
-				8C8215FCD5803FEEB03CDF3168445C14 /* Sources */,
-				A34B571773C5BCDF29850BDDDC6962AE /* Frameworks */,
-				91CC7433EB554CF005A1281700FFE14D /* Resources */,
+				E386A8B5BB043F7A09A33C6A94B405FF /* Headers */,
+				3903FF5F12053636BD7205078938A232 /* Sources */,
+				D4C6502D2E6B94F41246F76445408F89 /* Frameworks */,
+				B41A1C4ACFCF392FB55D0DA99F60C991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				191B0193BA7E0A5D12B00400CBCD4B73 /* PBXTargetDependency */,
+				8F53D6B12CB26BF25E33642618349514 /* PBXTargetDependency */,
+				CA441AF5D43F86C7BA191B994BEF83F7 /* PBXTargetDependency */,
+				F0C1D7817E465142B716BA3FEDC24AE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-AllInOne";
+			productName = "Pods-AllInOne";
+			productReference = C449BFBDE1ECAEEBCE787E602D5C8018 /* Pods_AllInOne.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5EFD6506021DC82E2D5D609D3406A440 /* BetterSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C613B1F2D663F25852C104E46C93284 /* Build configuration list for PBXNativeTarget "BetterSegmentedControl" */;
+			buildPhases = (
+				EA5294C84329C5502F5777AD61F13E2F /* Headers */,
+				1DFBFD5403387019778463DC63D171A0 /* Sources */,
+				6D323F069DAB69B7EA2132E2AF74DFFE /* Frameworks */,
+				0F9818C04ADE1E086FBC59458CBC3635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterSegmentedControl;
+			productName = BetterSegmentedControl;
+			productReference = 22493E48F408D14F69668E9FC5C759C7 /* BetterSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A616AA369CC54C36F67DF33ED0B10741 /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C082F96B679CE2732A944B41B7AE29A7 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				56C370772CA01176D55ACC0304FB5F8E /* Headers */,
+				9929B003E59F17DDB06ECC6EDA106AEC /* Sources */,
+				FF3677745DAEF7F9AF32DB4B39D13DF1 /* Frameworks */,
+				6D023CFDF63D31BA39527A9373095820 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -517,28 +632,7 @@
 			);
 			name = "Toast-Swift";
 			productName = "Toast-Swift";
-			productReference = C19593C83C1895D323515541D147E4E9 /* Toast_Swift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BA9BB7CD4DB137123BB8A280B24A4008 /* Pods-AllInOne */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4A52CF456D7088EA59A63652737E95DB /* Build configuration list for PBXNativeTarget "Pods-AllInOne" */;
-			buildPhases = (
-				640D4594D6D0A69980EC74041B38D20F /* Headers */,
-				654BF35955E9C660939E7EE8020FDCD5 /* Sources */,
-				FC29E2E202DC09120AC40358D7369D33 /* Frameworks */,
-				7370E56EA7051864725FEBA6AAB82142 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D8F4FC1249996808662C567A3B65F62D /* PBXTargetDependency */,
-				57299E322E0FC375D181569F64110DEC /* PBXTargetDependency */,
-				606CED1EEEC21D9499296BCED121A59B /* PBXTargetDependency */,
-			);
-			name = "Pods-AllInOne";
-			productName = "Pods-AllInOne";
-			productReference = B12C2D6AC944610DF7808B7FA8E7EA61 /* Pods_AllInOne.framework */;
+			productReference = F2E000A550234250C08C5200F817341C /* Toast_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C29DDA0D2434137AFD1693EF4307E22E /* Pods-AllInOneUITests */ = {
@@ -557,7 +651,7 @@
 			);
 			name = "Pods-AllInOneUITests";
 			productName = "Pods-AllInOneUITests";
-			productReference = 4FD3F563735B8E4FCB409AB8293FB69E /* Pods_AllInOneUITests.framework */;
+			productReference = 8CDA4E47BD79DBD94B10C12F26F85867 /* Pods_AllInOneUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FD1ECC3979ED6D745803FF751221D70C /* DropDown */ = {
@@ -575,7 +669,7 @@
 			);
 			name = DropDown;
 			productName = DropDown;
-			productReference = 10CA97656309F1B11B73EF93214A31F8 /* DropDown.framework */;
+			productReference = 6BFA499F8E00BC6F0EDD059CE9395AC0 /* DropDown.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -595,22 +689,30 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B3A63352D897B6936E71D32A2CB3AE85 /* Products */;
+			productRefGroup = 00AC00993D03E87481BC3DC7C9426BB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				5EFD6506021DC82E2D5D609D3406A440 /* BetterSegmentedControl */,
 				115C0F27C5F56A278792157F449C08D2 /* DateTimePicker */,
 				FD1ECC3979ED6D745803FF751221D70C /* DropDown */,
-				BA9BB7CD4DB137123BB8A280B24A4008 /* Pods-AllInOne */,
+				2A5F16AD4671B56BAE666A25E7C522BF /* Pods-AllInOne */,
 				0847BA003DDB6A1E1D46DEC7EC6D92AB /* Pods-AllInOneTests */,
 				C29DDA0D2434137AFD1693EF4307E22E /* Pods-AllInOneUITests */,
-				638B27896D124D70C96EBDE813EAE42D /* Toast-Swift */,
+				A616AA369CC54C36F67DF33ED0B10741 /* Toast-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7370E56EA7051864725FEBA6AAB82142 /* Resources */ = {
+		0F9818C04ADE1E086FBC59458CBC3635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D023CFDF63D31BA39527A9373095820 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -631,18 +733,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91CC7433EB554CF005A1281700FFE14D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A3FEE9F76E64532EA9614DAB44A57029 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FF168F05DFAE21A2FFF0BD61B869E2BB /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41A1C4ACFCF392FB55D0DA99F60C991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,6 +758,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1DFBFD5403387019778463DC63D171A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FE080632FCF8648D63329938C6D0A2 /* BetterSegmentedControl-dummy.m in Sources */,
+				D7C5783AF97C320399EEE52888F88616 /* BetterSegmentedControl.swift in Sources */,
+				7CC98E37AEFD87C0F1A299876F85F794 /* BetterSegmentedControlSegment.swift in Sources */,
+				82764F2BA4E2E6629B61845485A72AAF /* IconSegment.swift in Sources */,
+				718C659B2EC47611339EDC2E3FB7429A /* LabelSegment.swift in Sources */,
+				70A1C11CE385827237CB928FB02D505D /* Options.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3903FF5F12053636BD7205078938A232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1040BB0EE90BBAFC9668EFF1F64C73 /* Pods-AllInOne-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3ADCE2BE57BDA56AE1CB3CE9A38A4F5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -667,14 +790,6 @@
 				573FA8A312D833DA2F1FF734419EE989 /* DropDown-dummy.m in Sources */,
 				94A7DFD684BC8AE0EEF13BA17610C7C6 /* DropDown.swift in Sources */,
 				89A682C4E3E4B1B55085832D4CFB4ADA /* DropDownCell.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		654BF35955E9C660939E7EE8020FDCD5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90560FC18F376B763E7C11AF87DFFBD2 /* Pods-AllInOne-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,12 +813,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C8215FCD5803FEEB03CDF3168445C14 /* Sources */ = {
+		9929B003E59F17DDB06ECC6EDA106AEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8CE2D7D3923C8FED7D31135F4618876 /* Toast-Swift-dummy.m in Sources */,
-				D2CAE54BBA85A465958CD906A0DD54A2 /* Toast.swift in Sources */,
+				5B7744B7D8027E8A9F2E890FE28A795C /* Toast-Swift-dummy.m in Sources */,
+				C17AF26DE7D68D1C97D838FC7AA55B79 /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,35 +833,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		57299E322E0FC375D181569F64110DEC /* PBXTargetDependency */ = {
+		191B0193BA7E0A5D12B00400CBCD4B73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DropDown;
-			target = FD1ECC3979ED6D745803FF751221D70C /* DropDown */;
-			targetProxy = 14D0EB704757C6484B941CF80D0B0B26 /* PBXContainerItemProxy */;
+			name = BetterSegmentedControl;
+			target = 5EFD6506021DC82E2D5D609D3406A440 /* BetterSegmentedControl */;
+			targetProxy = 0564125A97B41BD1DC5709D06E30C94F /* PBXContainerItemProxy */;
 		};
-		606CED1EEEC21D9499296BCED121A59B /* PBXTargetDependency */ = {
+		8F53D6B12CB26BF25E33642618349514 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Toast-Swift";
-			target = 638B27896D124D70C96EBDE813EAE42D /* Toast-Swift */;
-			targetProxy = 768C65E151273AB7C261DA6D4F0E4ACC /* PBXContainerItemProxy */;
+			name = DateTimePicker;
+			target = 115C0F27C5F56A278792157F449C08D2 /* DateTimePicker */;
+			targetProxy = 951D20E1236FB380B6D505A495F8652B /* PBXContainerItemProxy */;
 		};
 		B86D008DB906251347449009009BA232 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AllInOne";
-			target = BA9BB7CD4DB137123BB8A280B24A4008 /* Pods-AllInOne */;
+			target = 2A5F16AD4671B56BAE666A25E7C522BF /* Pods-AllInOne */;
 			targetProxy = 3E34E7323FF2156897A5F05498942F27 /* PBXContainerItemProxy */;
+		};
+		CA441AF5D43F86C7BA191B994BEF83F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = FD1ECC3979ED6D745803FF751221D70C /* DropDown */;
+			targetProxy = CF09B737FCA70DA6279236E95EF84412 /* PBXContainerItemProxy */;
 		};
 		CB218BDD5F5972B890F45A97DEFEECC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AllInOne";
-			target = BA9BB7CD4DB137123BB8A280B24A4008 /* Pods-AllInOne */;
+			target = 2A5F16AD4671B56BAE666A25E7C522BF /* Pods-AllInOne */;
 			targetProxy = D3AB6572E3B84CC5AE2A62AC17518336 /* PBXContainerItemProxy */;
 		};
-		D8F4FC1249996808662C567A3B65F62D /* PBXTargetDependency */ = {
+		F0C1D7817E465142B716BA3FEDC24AE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DateTimePicker;
-			target = 115C0F27C5F56A278792157F449C08D2 /* DateTimePicker */;
-			targetProxy = A4AEC3A81EDF5E4CC677D30EB5A9CA02 /* PBXContainerItemProxy */;
+			name = "Toast-Swift";
+			target = A616AA369CC54C36F67DF33ED0B10741 /* Toast-Swift */;
+			targetProxy = 8DDEC3222BF0C6597D78DAE82B510F50 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -783,47 +904,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		19C6D633E15DBE6869D5EACB7D835FD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D525E228FAEEA87AC9BA30BADD5F628C /* Pods-AllInOne.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AllInOne/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AllInOne/Pods-AllInOne.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -870,9 +950,9 @@
 			};
 			name = Release;
 		};
-		36B981C5B63F3829B12B9B4F1EFA74DC /* Release */ = {
+		3608212366F65F61589D8F247FEC59F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC2C8C4519C267707F20FCA65DEE329A /* Toast-Swift.xcconfig */;
+			baseConfigurationReference = 9A05B3E2D2DF8C0CE0F65E52B50FC59C /* Toast-Swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -895,6 +975,42 @@
 				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
 				PRODUCT_MODULE_NAME = Toast_Swift;
 				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C8A40A69C3CEABE802ACC0CC19A5ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB0993BBB77625B7763563DFCF0F662 /* BetterSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BetterSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = BetterSegmentedControl;
+				PRODUCT_NAME = BetterSegmentedControl;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -967,9 +1083,49 @@
 			};
 			name = Release;
 		};
+		5E1CF7F0240939EABBFD51D4FA21B333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58679F4EA3AA740AF2324B8103ED0E98 /* Pods-AllInOne.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AllInOne/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AllInOne/Pods-AllInOne.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5E9998605E35C66EC6878BAC576C7078 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C6A81E352E857267B01BDA9E597C4D5 /* DropDown.xcconfig */;
+			baseConfigurationReference = 8741E2765984DDA52210A2F4ED3CBC3E /* DropDown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1003,9 +1159,83 @@
 			};
 			name = Debug;
 		};
+		5F171DD343756250D2A64CAC71AB19A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB0993BBB77625B7763563DFCF0F662 /* BetterSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BetterSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BetterSegmentedControl/BetterSegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = BetterSegmentedControl;
+				PRODUCT_NAME = BetterSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F8B388DDA90C3E88049FD5C9B6601A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A05B3E2D2DF8C0CE0F65E52B50FC59C /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		756DF8E4CDCE5780A70BDE06896FE0AE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 593DDE32DFAF96A503C8149A3514B752 /* DateTimePicker.xcconfig */;
+			baseConfigurationReference = 4ECFB6686AA49CA1A1D670172B7FEAF9 /* DateTimePicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1034,6 +1264,47 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AC73B1CC0EC975266FF2AFE4997A95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D525E228FAEEA87AC9BA30BADD5F628C /* Pods-AllInOne.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AllInOne/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AllInOne/Pods-AllInOne.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1145,7 +1416,7 @@
 		};
 		938AC3F00F85E782A71621AB1363B94D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 593DDE32DFAF96A503C8149A3514B752 /* DateTimePicker.xcconfig */;
+			baseConfigurationReference = 4ECFB6686AA49CA1A1D670172B7FEAF9 /* DateTimePicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1179,49 +1450,9 @@
 			};
 			name = Debug;
 		};
-		9D34726293D622C9448EF6579D67CA0D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58679F4EA3AA740AF2324B8103ED0E98 /* Pods-AllInOne.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AllInOne/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AllInOne/Pods-AllInOne.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9D67C3C294B7EEA13C6A19F44CB8DE8E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C6A81E352E857267B01BDA9E597C4D5 /* DropDown.xcconfig */;
+			baseConfigurationReference = 8741E2765984DDA52210A2F4ED3CBC3E /* DropDown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1295,45 +1526,18 @@
 			};
 			name = Debug;
 		};
-		A8BD1C01440BBCFAFDA2F2D442EE0E57 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC2C8C4519C267707F20FCA65DEE329A /* Toast-Swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				PRODUCT_MODULE_NAME = Toast_Swift;
-				PRODUCT_NAME = Toast_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C613B1F2D663F25852C104E46C93284 /* Build configuration list for PBXNativeTarget "BetterSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F171DD343756250D2A64CAC71AB19A6 /* Debug */,
+				3C8A40A69C3CEABE802ACC0CC19A5ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1361,20 +1565,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A52CF456D7088EA59A63652737E95DB /* Build configuration list for PBXNativeTarget "Pods-AllInOne" */ = {
+		B2E8AA93CAAE79FBEBD90C6042258047 /* Build configuration list for PBXNativeTarget "Pods-AllInOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D34726293D622C9448EF6579D67CA0D /* Debug */,
-				19C6D633E15DBE6869D5EACB7D835FD5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9783C14247984B212D92AA6554AF5338 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A8BD1C01440BBCFAFDA2F2D442EE0E57 /* Debug */,
-				36B981C5B63F3829B12B9B4F1EFA74DC /* Release */,
+				5E1CF7F0240939EABBFD51D4FA21B333 /* Debug */,
+				7AC73B1CC0EC975266FF2AFE4997A95F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1384,6 +1579,15 @@
 			buildConfigurations = (
 				5E9998605E35C66EC6878BAC576C7078 /* Debug */,
 				9D67C3C294B7EEA13C6A19F44CB8DE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C082F96B679CE2732A944B41B7AE29A7 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3608212366F65F61589D8F247FEC59F7 /* Debug */,
+				5F8B388DDA90C3E88049FD5C9B6601A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
