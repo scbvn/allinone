@@ -1,0 +1,219 @@
+[
+    {
+        "name":"Ăn uống",
+        "image":"ic_foods",
+        "introducing": " món cho hôm nay",
+        "services": [
+            {
+                "name":"Bún bò Huế",
+                "price": 20,
+                "content":"Bún bò Huế là món ăn truyền thống bắt nguồn từ cố đô Huế ở Việt Nam. Kết hợp hương vị của thịt bò tươi ngon, chả truyền thống, rau, hành sẽ tạo ra một món ăn đậm chất Việt",
+                "image":"bunbo",
+                "subInfo":"200 calories",
+                "dataType":0,
+                "priceType":2
+            },
+            {
+                "name":"Bánh Khọt",
+                "price": 15,
+                "content":"Đây là món bánh kếp thu nhỏ nổi tiếng của Việt Nam được phục vụ với rau thơm và rau và nước mắm cay ngọt để ngâm. Bột được làm từ sự kết hợp của bột gạo chủ yếu, và thậm chí còn sót lại hạt gạo, với một chút nghệ để cung cấp cho họ một màu vàng tuyệt đẹp, và trộn lẫn với sữa dừa để làm cho nó thêm kem và phong phú.",
+                "image":"banhkhot",
+                "subInfo":"150 calories",
+                "dataType":0,
+                "priceType":2
+            },
+            {
+                "name":"Bò Beefsteak",
+                "price": 30,
+                "content":"Món beefsteak là một loại tiệc trong đó thăn bò thái lát được phục vụ cho thực khách như tất cả các bạn có thể ăn thức ăn ngón tay. Phong cách ăn uống có nguồn gốc từ thành phố New York thế kỷ 19 như một loại lễ kỷ niệm công nhân nhưng đã đi vào một sự suy giảm vào giữa thế kỷ 20",
+                "image":"beefsteak",
+                "subInfo":"300 calories",
+                "dataType":0,
+                "priceType":2
+            },
+            {
+                "name":"Gà chiên nước mắm",
+                "price": 10,
+                "content":"Món ăn được làm từ những con gà được lựa chọn kĩ càng kết hợp với nước mắm thượng hạng sẽ tạo ra một món ăn đậm đà hương vị quê hương",
+                "image":"chicken_fride",
+                "subInfo":"200 calories",
+                "dataType":0,
+                "priceType":2
+            },
+            {
+                "name":"Yakisoba",
+                "price": 10,
+                "content":"Yakisoba (Nhật Bản: 焼 き そ ば [jakiꜜsoba]), theo nghĩa đen là 'kiều mạch chiên', là món mì xào Nhật Bản. Mặc dù soba có nghĩa là kiều mạch, mì yakisoba thực sự được làm từ bột mì, và thường có hương vị với một gia vị tương tự như nước sốt hàu. Món đầu tiên xuất hiện trong các quầy hàng thực phẩm ở Nhật Bản vào đầu thế kỷ 20.",
+                "image":"mixao",
+                "subInfo":"200 calories",
+                "dataType":0,
+                "priceType":2
+            },
+            {
+                "name":"Mực hấp",
+                "price": 10,
+                "content":"Hơi nước là cách dễ nhất để chế biến hải sản và từ phương pháp nấu ăn này, chúng ta có thể thưởng thức và nếm thử sự tươi mát của hải sản mà chúng ta đang có. Đề nghị chuyển đổi với hải sản khác cho công thức này.",
+                "image":"muchap",
+                "subInfo":"200 calories",
+                "dataType":0,
+                "priceType":2
+            },
+            {
+                "name":"Phở",
+                "price": 10,
+                "content":"Phở là một món ăn truyền thống Việt Nam, cũng được coi là một trong những món ăn đặc trưng cho ẩm thực Việt Nam. Thành phần chính của phở là mì gạo và nước dùng (hoặc súp kiểu miền Nam) cùng với thịt bò hoặc thịt gà thái lát. Ngoài ra còn có các loại gia vị như: tiêu, chanh, nước mắm, ớt… Những loại gia vị này được thêm vào tùy theo khẩu vị của từng người dùng.",
+                "image":"pho",
+                "subInfo":"100 calories",
+                "dataType":0,
+                "priceType":2
+            }
+        ]
+    },
+    {
+        "name":"Trò chơi bãi biển",
+        "image":"beach",
+        "introducing": " dụng cụ và hoạt động",
+        "services":[
+            {
+                "name":"Life jacket",
+                "price": 10,
+                "content":"Harmony Universal Life Jacket PFD là một thiết bị nổi cá nhân một kích thước phù hợp với tất cả là sự kết hợp cuối cùng của tiện lợi, giá trị và sự thoải mái. Nó được thiết kế để phù hợp với nhiều người và được sử dụng trong một loạt các hoạt động thể thao dưới nước. Cho dù đó là một ngày trên hồ với gia đình, một chuyến đi chơi trong xuồng của bạn, hoặc thả xuống một dòng suối nhẹ nhàng trong một ống bên trong, Universal PFD sẽ không làm bạn thất vọng.",
+                "image":"aophao",
+                "subInfo":"",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Bóng",
+                "price": 5,
+                "content":"Bóng chất lượng cao tiêu chuẩn fifa dành cho các hoạt động thể thao bãi biển và team building",
+                "image":"ball",
+                "subInfo":"",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Du thuyền Seven sins",
+                "price": 10000,
+                "content":"Một siêu du thuyền tiêu chuẩn quốc tế duy nhất tại Việt Nam. Bạn sẽ được trải nghiệm những khoảng khắc đẳng cấp duy nhất",
+                "image":"yachts",
+                "subInfo":"",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Kính bơi",
+                "price": 10,
+                "content":"Kính bơi tiêu chuẩn quốc tế, bảo vệ đôi mắt của bạn khỏi nước biển, bụi bẩn và tia UV",
+                "subInfo":"",
+                "image":"swimming_glasses",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Đồ bơi cho nam",
+                "price": 14,
+                "content":"Allover hoa và lá in làm cho bơi lội tóm tắt mát. Tại bãi biển hoặc bên hồ bơi, cặp quần bơi nam này sẽ giúp bạn che chở. Eo dây rút điều chỉnh cho phù hợp vừa phải.",
+                "subInfo":"",
+                "image":"swimming-costume-man",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Đồ bơi cho nữ",
+                "price": 14,
+                "content":"Allover hoa và lá in làm cho bơi lội tóm tắt mát. Tại bãi biển hoặc bên hồ bơi, cặp quần bơi nữ này sẽ giúp bạn che chở. Eo dây rút điều chỉnh cho phù hợp vừa phải.",
+                "subInfo":"",
+                "image":"swimming_suite",
+                "dataType":2,
+                "priceType":0
+            }
+        ]
+    },
+    {
+        "name":"Chăm sóc sức khoẻ",
+        "image":"health",
+        "introducing": " dịch vụ sức khoẻ",
+        "services":[
+            {
+                "name":"Bác sĩ",
+                "price": 50,
+                "content":"Dịch vụ chăm sóc sức khoẻ với các bác sĩ dày dạn kinh nghiệm và hệ thống trang thiết bị hiện đại bậc nhất thế giới 24/7",
+                "subInfo":"24/7. Liên hệ qua điện thoại",
+                "image":"doctor",
+                "dataType":3,
+                "priceType":1
+            },
+            {
+                "name":"Massage Thái",
+                "price": 50,
+                "content":"Chúng tôi mang đến cho quí khách một dịch vụ massge trứ danh từ xứ sở Chùa Vàng, với các kỉ thuật viên được đào tạo trực tiếp từ Thái Lan. Hệ thống phòng xông hơi đạt chuẩn cao cấp 5 sao",
+                "image":"maxa",
+                "subInfo":"24/7. Liên hệ qua điện thoại",
+                "dataType":3,
+                "priceType":1
+            }
+        ]
+    },
+    {
+        "name":"Thể thao",
+        "image":"fitness",
+        "introducing": " dụng cụ thể thao",
+        "services":[
+            {
+                "name":"Gậy đánh Golf",
+                "price": 100,
+                "content":"Bộ dụng cụ Honma Golf là thương hiệu vô cùng nổi tiếng trong lĩnh vực Golf",
+                "subInfo":"",
+                "image":"golf",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Sân Golf",
+                "price": 100,
+                "content":"Sân Golf 9 lỗ đẳng cấp quốc tế ngay sát cạnh bờ biển mang đến nhưng phút giây thư giãn thoải mái nhất cho quí khách",
+                "image":"gold_yard",
+                "subInfo":"",
+                "dataType":3,
+                "priceType":1
+            },
+            {
+                "name":"Gym",
+                "price": 100,
+                "content":"Phòng tập Gym tiêu chuẩn 5 sao với đầy đủ các dụng cụ tập cho tất cả các nhu cầu Group X, Yoga, Dance, Crossfit, MMA and Kickfit",
+                "subInfo":"Free for guest",
+                "image":"gym",
+                "dataType":1,
+                "priceType":1
+            },
+            {
+                "name":"Vợt cầu lông",
+                "price": 10,
+                "content":"Những bộ vợt cầu lông Yonex với nhiều kích cỡ khác nhau sẽ mang đến những trận cầu tuyệt vời",
+                "subInfo":"",
+                "image":"racket_batminton",
+                "dataType":2,
+                "priceType":0
+            },
+            {
+                "name":"Sân cầu lông",
+                "price": 100,
+                "content":"3 sân chơi cầu lông tiêu chuẩn Olympic",
+                "subInfo":"Miễn phí",
+                "image":"yard_badminton",
+                "dataType":1,
+                "priceType":1
+            },
+            {
+                "name":"Sân Tenis",
+                "price": 100,
+                "content":"2 sân chuẩn Olympic",
+                "subInfo":"Miễn phí",
+                "image":"tennis_courts",
+                "dataType":1,
+                "priceType":1
+            }
+        ]
+    }
+]
